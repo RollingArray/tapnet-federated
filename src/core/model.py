@@ -1,22 +1,44 @@
-# model.py
+"""
+Model Definition for Federated Learning Binary Classifier
+
+This module provides a build_model function that constructs a deep neural network 
+using TensorFlow/Keras, suitable for binary classification tasks such as defect detection.
+
+🛠️ Architecture:
+    - Input Layer
+    - 3 Fully Connected (Dense) Hidden Layers
+    - Dropout Regularization
+    - Output Layer with Sigmoid Activation
+
+⚙️ Optimizer: Adam with 1e-4 Learning Rate
+🎯 Loss Function: Binary Crossentropy
+📊 Metric: Accuracy
+
+Author: YourName / Project Team
+Version: 1.0
+"""
+
 import tensorflow as tf
+from config import LEARNING_RATE
+
+from logger import get_logger
+
+# Logger initialization
+log = get_logger("client", "client")
 
 def build_model(input_dim):
-    # model = tf.keras.Sequential([
-    #     tf.keras.layers.InputLayer(input_shape=(input_dim,)),
-    #     tf.keras.layers.Dense(128, activation='relu'),
-    #     tf.keras.layers.Dropout(0.3),
-    #     tf.keras.layers.Dense(64, activation='relu'),
-    #     tf.keras.layers.Dense(1, activation='sigmoid')
-    # ])
+    
+    """
+    Builds and compiles a deep neural network model.
 
-    # optimizer = tf.keras.optimizers.Adam(learning_rate=1e-4)
+    Args:
+        input_dim (int): Number of input features for the model.
 
-    # model.compile(
-    #     loss='binary_crossentropy',
-    #     optimizer=optimizer,
-    #     metrics=['accuracy']
-    # )
+    Returns:
+        tf.keras.Model: A compiled Keras model ready for training.
+    """
+    
+    log.info(f"🔧 Building model with input dimension: {input_dim}")
 
     model = tf.keras.Sequential([
 
@@ -57,7 +79,7 @@ def build_model(input_dim):
     # ⚙️ Optimizer Configuration
     # Adam is an adaptive learning rate optimizer known for combining the benefits of RMSProp and SGD with momentum.
     # It adjusts the learning rate dynamically based on first- and second-order moments of the gradients.
-    optimizer = tf.keras.optimizers.Adam(learning_rate=1e-4)
+    optimizer = tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE)
     # 🔍 Learning rate set to 1e-4 for stable and fine-grained convergence.
 
     # 🧠 Model Compilation
@@ -68,6 +90,11 @@ def build_model(input_dim):
         optimizer=optimizer,          # 🔧 Optimizer: Adam (adaptive and efficient)
         metrics=['accuracy']          # 📈 Metric: Accuracy (fraction of correct predictions)
     )
+
+    log.info("✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.")
+
+    # 🔍 Model summary (optional for dev logs only)
+    model.summary(print_fn=lambda x: log.info("📊 " + x))
 
     return model
 
