@@ -9,6 +9,7 @@ matplotlib==3.9.0
 scikit-learn==1.4.2
 tqdm==4.66.4
 pandas
+seaborn
 
 # System/file utilities
 pathlib2==2.3.7.post1
@@ -16,3 +17,4 @@ shutilwhich==1.1.0
 
 # Optional: Flower for federated learning
 flwr==1.7.0
+tensorflow==2.15.0
