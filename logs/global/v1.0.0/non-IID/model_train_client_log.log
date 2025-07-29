@@ -1,0 +1,503 @@
+[2025-07-30 00:07:25,773] INFO - 🔧 Launching client with ID: 1
+[2025-07-30 00:07:29,662] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:07:29,742] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:07:29,884] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:07:29,885] INFO - 📊 Model: "sequential"
+[2025-07-30 00:07:29,885] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:29,885] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:07:29,885] INFO - 📊 =================================================================
+[2025-07-30 00:07:29,885] INFO - 📊  dense (Dense)               (None, 256)               1048832   
+[2025-07-30 00:07:29,885] INFO - 📊                                                                  
+[2025-07-30 00:07:29,885] INFO - 📊  dropout (Dropout)           (None, 256)               0         
+[2025-07-30 00:07:29,885] INFO - 📊                                                                  
+[2025-07-30 00:07:29,886] INFO - 📊  dense_1 (Dense)             (None, 128)               32896     
+[2025-07-30 00:07:29,886] INFO - 📊                                                                  
+[2025-07-30 00:07:29,886] INFO - 📊  dropout_1 (Dropout)         (None, 128)               0         
+[2025-07-30 00:07:29,886] INFO - 📊                                                                  
+[2025-07-30 00:07:29,886] INFO - 📊  dense_2 (Dense)             (None, 64)                8256      
+[2025-07-30 00:07:29,886] INFO - 📊                                                                  
+[2025-07-30 00:07:29,886] INFO - 📊  dense_3 (Dense)             (None, 32)                2080      
+[2025-07-30 00:07:29,886] INFO - 📊                                                                  
+[2025-07-30 00:07:29,887] INFO - 📊  dense_4 (Dense)             (None, 1)                 33        
+[2025-07-30 00:07:29,887] INFO - 📊                                                                  
+[2025-07-30 00:07:29,887] INFO - 📊 =================================================================
+[2025-07-30 00:07:29,887] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:07:29,887] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:07:29,887] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:07:29,887] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:29,887] INFO - === client 1 Logs up and running @ [2025-07-30 00:07:29] ===
+[2025-07-30 00:07:29,887] INFO - 📦 Initialized client 1 with 4805 samples
+[2025-07-30 00:07:30,791] INFO - 🔧 Launching client with ID: 2
+[2025-07-30 00:07:30,955] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:07:30,962] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:07:31,075] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:07:31,075] INFO - 📊 Model: "sequential"
+[2025-07-30 00:07:31,076] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:31,076] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:07:31,076] INFO - 📊 =================================================================
+[2025-07-30 00:07:31,076] INFO - 📊  dense (Dense)               (None, 256)               1048832   
+[2025-07-30 00:07:31,076] INFO - 📊                                                                  
+[2025-07-30 00:07:31,076] INFO - 📊  dropout (Dropout)           (None, 256)               0         
+[2025-07-30 00:07:31,076] INFO - 📊                                                                  
+[2025-07-30 00:07:31,076] INFO - 📊  dense_1 (Dense)             (None, 128)               32896     
+[2025-07-30 00:07:31,076] INFO - 📊                                                                  
+[2025-07-30 00:07:31,076] INFO - 📊  dropout_1 (Dropout)         (None, 128)               0         
+[2025-07-30 00:07:31,076] INFO - 📊                                                                  
+[2025-07-30 00:07:31,077] INFO - 📊  dense_2 (Dense)             (None, 64)                8256      
+[2025-07-30 00:07:31,077] INFO - 📊                                                                  
+[2025-07-30 00:07:31,077] INFO - 📊  dense_3 (Dense)             (None, 32)                2080      
+[2025-07-30 00:07:31,077] INFO - 📊                                                                  
+[2025-07-30 00:07:31,077] INFO - 📊  dense_4 (Dense)             (None, 1)                 33        
+[2025-07-30 00:07:31,077] INFO - 📊                                                                  
+[2025-07-30 00:07:31,077] INFO - 📊 =================================================================
+[2025-07-30 00:07:31,077] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:07:31,077] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:07:31,077] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:07:31,077] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:31,997] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:07:34,951] INFO - ✅ Loaded 6553 samples for client_2
+[2025-07-30 00:07:34,954] INFO - ✅ Loaded 6553 samples for client_2
+[2025-07-30 00:07:35,030] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:07:35,161] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:07:35,161] INFO - 📊 Model: "sequential"
+[2025-07-30 00:07:35,161] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:35,161] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:07:35,161] INFO - 📊 =================================================================
+[2025-07-30 00:07:35,161] INFO - 📊  dense (Dense)               (None, 256)               1048832   
+[2025-07-30 00:07:35,161] INFO - 📊                                                                  
+[2025-07-30 00:07:35,162] INFO - 📊  dropout (Dropout)           (None, 256)               0         
+[2025-07-30 00:07:35,162] INFO - 📊                                                                  
+[2025-07-30 00:07:35,162] INFO - 📊  dense_1 (Dense)             (None, 128)               32896     
+[2025-07-30 00:07:35,162] INFO - 📊                                                                  
+[2025-07-30 00:07:35,162] INFO - 📊  dropout_1 (Dropout)         (None, 128)               0         
+[2025-07-30 00:07:35,162] INFO - 📊                                                                  
+[2025-07-30 00:07:35,162] INFO - 📊  dense_2 (Dense)             (None, 64)                8256      
+[2025-07-30 00:07:35,162] INFO - 📊                                                                  
+[2025-07-30 00:07:35,162] INFO - 📊  dense_3 (Dense)             (None, 32)                2080      
+[2025-07-30 00:07:35,162] INFO - 📊                                                                  
+[2025-07-30 00:07:35,162] INFO - 📊  dense_4 (Dense)             (None, 1)                 33        
+[2025-07-30 00:07:35,162] INFO - 📊                                                                  
+[2025-07-30 00:07:35,163] INFO - 📊 =================================================================
+[2025-07-30 00:07:35,163] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:07:35,163] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:07:35,163] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:07:35,163] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:35,163] INFO - === client 2 Logs up and running @ [2025-07-30 00:07:35] ===
+[2025-07-30 00:07:35,163] INFO - 📦 Initialized client 2 with 5242 samples
+[2025-07-30 00:07:35,700] INFO - 🔧 Launching client with ID: 3
+[2025-07-30 00:07:38,866] INFO - ✅ Loaded 6010 samples for client_3
+[2025-07-30 00:07:38,867] INFO - ✅ Loaded 6010 samples for client_3
+[2025-07-30 00:07:38,937] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:07:39,053] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:07:39,053] INFO - 📊 Model: "sequential"
+[2025-07-30 00:07:39,053] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:39,053] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:07:39,053] INFO - 📊 =================================================================
+[2025-07-30 00:07:39,054] INFO - 📊  dense (Dense)               (None, 256)               1048832   
+[2025-07-30 00:07:39,054] INFO - 📊                                                                  
+[2025-07-30 00:07:39,054] INFO - 📊  dropout (Dropout)           (None, 256)               0         
+[2025-07-30 00:07:39,054] INFO - 📊                                                                  
+[2025-07-30 00:07:39,054] INFO - 📊  dense_1 (Dense)             (None, 128)               32896     
+[2025-07-30 00:07:39,054] INFO - 📊                                                                  
+[2025-07-30 00:07:39,054] INFO - 📊  dropout_1 (Dropout)         (None, 128)               0         
+[2025-07-30 00:07:39,054] INFO - 📊                                                                  
+[2025-07-30 00:07:39,054] INFO - 📊  dense_2 (Dense)             (None, 64)                8256      
+[2025-07-30 00:07:39,054] INFO - 📊                                                                  
+[2025-07-30 00:07:39,054] INFO - 📊  dense_3 (Dense)             (None, 32)                2080      
+[2025-07-30 00:07:39,054] INFO - 📊                                                                  
+[2025-07-30 00:07:39,055] INFO - 📊  dense_4 (Dense)             (None, 1)                 33        
+[2025-07-30 00:07:39,055] INFO - 📊                                                                  
+[2025-07-30 00:07:39,055] INFO - 📊 =================================================================
+[2025-07-30 00:07:39,055] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:07:39,055] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:07:39,055] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:07:39,055] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:39,055] INFO - === client 3 Logs up and running @ [2025-07-30 00:07:39] ===
+[2025-07-30 00:07:39,055] INFO - 📦 Initialized client 3 with 4808 samples
+[2025-07-30 00:07:40,994] INFO - 🔧 Launching client with ID: 4
+[2025-07-30 00:07:41,602] INFO - ✅ Loaded 4371 samples for client_4
+[2025-07-30 00:07:41,711] INFO - ✅ Loaded 4371 samples for client_4
+[2025-07-30 00:07:41,765] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:07:41,880] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:07:41,881] INFO - 📊 Model: "sequential"
+[2025-07-30 00:07:41,881] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:41,881] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:07:41,881] INFO - 📊 =================================================================
+[2025-07-30 00:07:41,881] INFO - 📊  dense (Dense)               (None, 256)               1048832   
+[2025-07-30 00:07:41,881] INFO - 📊                                                                  
+[2025-07-30 00:07:41,881] INFO - 📊  dropout (Dropout)           (None, 256)               0         
+[2025-07-30 00:07:41,881] INFO - 📊                                                                  
+[2025-07-30 00:07:41,881] INFO - 📊  dense_1 (Dense)             (None, 128)               32896     
+[2025-07-30 00:07:41,881] INFO - 📊                                                                  
+[2025-07-30 00:07:41,882] INFO - 📊  dropout_1 (Dropout)         (None, 128)               0         
+[2025-07-30 00:07:41,882] INFO - 📊                                                                  
+[2025-07-30 00:07:41,882] INFO - 📊  dense_2 (Dense)             (None, 64)                8256      
+[2025-07-30 00:07:41,882] INFO - 📊                                                                  
+[2025-07-30 00:07:41,882] INFO - 📊  dense_3 (Dense)             (None, 32)                2080      
+[2025-07-30 00:07:41,882] INFO - 📊                                                                  
+[2025-07-30 00:07:41,882] INFO - 📊  dense_4 (Dense)             (None, 1)                 33        
+[2025-07-30 00:07:41,882] INFO - 📊                                                                  
+[2025-07-30 00:07:41,882] INFO - 📊 =================================================================
+[2025-07-30 00:07:41,882] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:07:41,883] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:07:41,883] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:07:41,883] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:41,883] INFO - === client 4 Logs up and running @ [2025-07-30 00:07:41] ===
+[2025-07-30 00:07:41,883] INFO - 📦 Initialized client 4 with 3496 samples
+[2025-07-30 00:07:43,343] INFO - ✅ Loaded 2781 samples for client_5
+[2025-07-30 00:07:47,621] INFO - 📋 Classification Report for global_non-IID_round_0:
+              precision    recall  f1-score   support
+
+         bad       0.00      0.00      0.00     13703
+        good       0.47      1.00      0.64     12019
+
+    accuracy                           0.47     25722
+   macro avg       0.23      0.50      0.32     25722
+weighted avg       0.22      0.47      0.30     25722
+
+[2025-07-30 00:07:47,985] INFO - 📁 Saved confusion matrix to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/confusion_matrix_global_non-IID_round_0.png
+[2025-07-30 00:07:48,060] INFO - 📁 Saved loss/accuracy plot to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/metrics_global_non-IID_round_0.png
+[2025-07-30 00:07:48,390] INFO - 🔧 Launching client with ID: 5
+[2025-07-30 00:07:48,993] INFO - ✅ Loaded 2781 samples for client_5
+[2025-07-30 00:07:49,035] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:07:49,148] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:07:49,148] INFO - 📊 Model: "sequential"
+[2025-07-30 00:07:49,148] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:49,149] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:07:49,149] INFO - 📊 =================================================================
+[2025-07-30 00:07:49,149] INFO - 📊  dense (Dense)               (None, 256)               1048832   
+[2025-07-30 00:07:49,149] INFO - 📊                                                                  
+[2025-07-30 00:07:49,149] INFO - 📊  dropout (Dropout)           (None, 256)               0         
+[2025-07-30 00:07:49,149] INFO - 📊                                                                  
+[2025-07-30 00:07:49,149] INFO - 📊  dense_1 (Dense)             (None, 128)               32896     
+[2025-07-30 00:07:49,149] INFO - 📊                                                                  
+[2025-07-30 00:07:49,149] INFO - 📊  dropout_1 (Dropout)         (None, 128)               0         
+[2025-07-30 00:07:49,149] INFO - 📊                                                                  
+[2025-07-30 00:07:49,149] INFO - 📊  dense_2 (Dense)             (None, 64)                8256      
+[2025-07-30 00:07:49,150] INFO - 📊                                                                  
+[2025-07-30 00:07:49,150] INFO - 📊  dense_3 (Dense)             (None, 32)                2080      
+[2025-07-30 00:07:49,150] INFO - 📊                                                                  
+[2025-07-30 00:07:49,150] INFO - 📊  dense_4 (Dense)             (None, 1)                 33        
+[2025-07-30 00:07:49,150] INFO - 📊                                                                  
+[2025-07-30 00:07:49,150] INFO - 📊 =================================================================
+[2025-07-30 00:07:49,150] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:07:49,150] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:07:49,150] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:07:49,150] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:07:49,151] INFO - === client 5 Logs up and running @ [2025-07-30 00:07:49] ===
+[2025-07-30 00:07:49,151] INFO - 📦 Initialized client 5 with 2224 samples
+[2025-07-30 00:07:49,244] INFO - 🧠 Client 4 training started
+[2025-07-30 00:07:49,261] INFO - 🧠 Client 2 training started
+[2025-07-30 00:07:49,289] INFO - 🧠 Client 3 training started
+[2025-07-30 00:07:49,291] INFO - 🧠 Client 1 training started
+[2025-07-30 00:07:49,309] INFO - 🧠 Client 5 training started
+[2025-07-30 00:08:28,758] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:08:31,892] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_5.png
+[2025-07-30 00:08:31,893] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:08:41,499] INFO - 📈 Client 4 training finished. Last val_acc: 0.5863
+[2025-07-30 00:08:44,354] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_4.png
+[2025-07-30 00:08:44,354] INFO - 📈 Client 4 training finished. Last val_acc: 0.5863
+[2025-07-30 00:11:18,745] INFO - 📈 Client 1 training finished. Last val_acc: 0.9792
+[2025-07-30 00:11:20,220] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_1.png
+[2025-07-30 00:11:20,220] INFO - 📈 Client 1 training finished. Last val_acc: 0.9792
+[2025-07-30 00:11:44,296] INFO - 📈 Client 3 training finished. Last val_acc: 0.9867
+[2025-07-30 00:11:45,194] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_3.png
+[2025-07-30 00:11:45,194] INFO - 📈 Client 3 training finished. Last val_acc: 0.9867
+[2025-07-30 00:11:54,450] INFO - 📈 Client 2 training finished. Last val_acc: 0.9832
+[2025-07-30 00:11:54,887] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_2.png
+[2025-07-30 00:11:54,887] INFO - 📈 Client 2 training finished. Last val_acc: 0.9832
+[2025-07-30 00:11:58,497] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:11:58,505] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:11:58,639] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:11:58,640] INFO - 📊 Model: "sequential_1"
+[2025-07-30 00:11:58,640] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:11:58,640] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:11:58,640] INFO - 📊 =================================================================
+[2025-07-30 00:11:58,640] INFO - 📊  dense_5 (Dense)             (None, 256)               1048832   
+[2025-07-30 00:11:58,640] INFO - 📊                                                                  
+[2025-07-30 00:11:58,640] INFO - 📊  dropout_2 (Dropout)         (None, 256)               0         
+[2025-07-30 00:11:58,640] INFO - 📊                                                                  
+[2025-07-30 00:11:58,640] INFO - 📊  dense_6 (Dense)             (None, 128)               32896     
+[2025-07-30 00:11:58,640] INFO - 📊                                                                  
+[2025-07-30 00:11:58,641] INFO - 📊  dropout_3 (Dropout)         (None, 128)               0         
+[2025-07-30 00:11:58,641] INFO - 📊                                                                  
+[2025-07-30 00:11:58,641] INFO - 📊  dense_7 (Dense)             (None, 64)                8256      
+[2025-07-30 00:11:58,641] INFO - 📊                                                                  
+[2025-07-30 00:11:58,641] INFO - 📊  dense_8 (Dense)             (None, 32)                2080      
+[2025-07-30 00:11:58,641] INFO - 📊                                                                  
+[2025-07-30 00:11:58,641] INFO - 📊  dense_9 (Dense)             (None, 1)                 33        
+[2025-07-30 00:11:58,641] INFO - 📊                                                                  
+[2025-07-30 00:11:58,641] INFO - 📊 =================================================================
+[2025-07-30 00:11:58,642] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:11:58,642] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:11:58,642] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:11:58,642] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:11:59,476] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:12:03,370] INFO - ✅ Loaded 6553 samples for client_2
+[2025-07-30 00:12:07,045] INFO - ✅ Loaded 6010 samples for client_3
+[2025-07-30 00:12:09,609] INFO - ✅ Loaded 4371 samples for client_4
+[2025-07-30 00:12:11,272] INFO - ✅ Loaded 2781 samples for client_5
+[2025-07-30 00:12:15,068] INFO - 📋 Classification Report for global_non-IID_round_1:
+              precision    recall  f1-score   support
+
+         bad       0.73      1.00      0.85     13703
+        good       1.00      0.59      0.74     12019
+
+    accuracy                           0.81     25722
+   macro avg       0.87      0.79      0.79     25722
+weighted avg       0.86      0.81      0.80     25722
+
+[2025-07-30 00:12:15,189] INFO - 📁 Saved confusion matrix to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/confusion_matrix_global_non-IID_round_1.png
+[2025-07-30 00:12:15,254] INFO - 📁 Saved loss/accuracy plot to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/metrics_global_non-IID_round_1.png
+[2025-07-30 00:12:16,035] INFO - 🧠 Client 2 training started
+[2025-07-30 00:12:16,055] INFO - 🧠 Client 4 training started
+[2025-07-30 00:12:16,067] INFO - 🧠 Client 3 training started
+[2025-07-30 00:12:16,087] INFO - 🧠 Client 5 training started
+[2025-07-30 00:12:16,094] INFO - 🧠 Client 1 training started
+[2025-07-30 00:12:49,999] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:12:51,874] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_5.png
+[2025-07-30 00:12:51,874] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:13:08,098] INFO - 📈 Client 4 training finished. Last val_acc: 0.6491
+[2025-07-30 00:13:09,572] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_4.png
+[2025-07-30 00:13:09,573] INFO - 📈 Client 4 training finished. Last val_acc: 0.6491
+[2025-07-30 00:13:25,720] INFO - 📈 Client 1 training finished. Last val_acc: 0.9817
+[2025-07-30 00:13:26,850] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_1.png
+[2025-07-30 00:13:26,850] INFO - 📈 Client 1 training finished. Last val_acc: 0.9817
+[2025-07-30 00:13:34,291] INFO - 📈 Client 3 training finished. Last val_acc: 0.9875
+[2025-07-30 00:13:34,748] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_3.png
+[2025-07-30 00:13:34,748] INFO - 📈 Client 3 training finished. Last val_acc: 0.9875
+[2025-07-30 00:14:07,537] INFO - 📈 Client 2 training finished. Last val_acc: 0.9817
+[2025-07-30 00:14:07,781] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_2.png
+[2025-07-30 00:14:07,781] INFO - 📈 Client 2 training finished. Last val_acc: 0.9817
+[2025-07-30 00:14:11,491] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:14:11,497] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:14:11,562] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:14:11,562] INFO - 📊 Model: "sequential_2"
+[2025-07-30 00:14:11,562] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:14:11,562] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:14:11,563] INFO - 📊 =================================================================
+[2025-07-30 00:14:11,563] INFO - 📊  dense_10 (Dense)            (None, 256)               1048832   
+[2025-07-30 00:14:11,563] INFO - 📊                                                                  
+[2025-07-30 00:14:11,563] INFO - 📊  dropout_4 (Dropout)         (None, 256)               0         
+[2025-07-30 00:14:11,563] INFO - 📊                                                                  
+[2025-07-30 00:14:11,563] INFO - 📊  dense_11 (Dense)            (None, 128)               32896     
+[2025-07-30 00:14:11,563] INFO - 📊                                                                  
+[2025-07-30 00:14:11,564] INFO - 📊  dropout_5 (Dropout)         (None, 128)               0         
+[2025-07-30 00:14:11,564] INFO - 📊                                                                  
+[2025-07-30 00:14:11,564] INFO - 📊  dense_12 (Dense)            (None, 64)                8256      
+[2025-07-30 00:14:11,564] INFO - 📊                                                                  
+[2025-07-30 00:14:11,564] INFO - 📊  dense_13 (Dense)            (None, 32)                2080      
+[2025-07-30 00:14:11,564] INFO - 📊                                                                  
+[2025-07-30 00:14:11,564] INFO - 📊  dense_14 (Dense)            (None, 1)                 33        
+[2025-07-30 00:14:11,564] INFO - 📊                                                                  
+[2025-07-30 00:14:11,565] INFO - 📊 =================================================================
+[2025-07-30 00:14:11,565] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:14:11,565] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:14:11,565] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:14:11,565] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:14:12,381] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:14:16,216] INFO - ✅ Loaded 6553 samples for client_2
+[2025-07-30 00:14:18,243] INFO - ✅ Loaded 6010 samples for client_3
+[2025-07-30 00:14:20,890] INFO - ✅ Loaded 4371 samples for client_4
+[2025-07-30 00:14:22,507] INFO - ✅ Loaded 2781 samples for client_5
+[2025-07-30 00:14:26,205] INFO - 📋 Classification Report for global_non-IID_round_2:
+              precision    recall  f1-score   support
+
+         bad       0.89      1.00      0.94     13703
+        good       1.00      0.86      0.92     12019
+
+    accuracy                           0.93     25722
+   macro avg       0.94      0.93      0.93     25722
+weighted avg       0.94      0.93      0.93     25722
+
+[2025-07-30 00:14:26,391] INFO - 📁 Saved confusion matrix to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/confusion_matrix_global_non-IID_round_2.png
+[2025-07-30 00:14:26,458] INFO - 📁 Saved loss/accuracy plot to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/metrics_global_non-IID_round_2.png
+[2025-07-30 00:14:27,137] INFO - 🧠 Client 4 training started
+[2025-07-30 00:14:27,138] INFO - 🧠 Client 3 training started
+[2025-07-30 00:14:27,174] INFO - 🧠 Client 5 training started
+[2025-07-30 00:14:27,181] INFO - 🧠 Client 1 training started
+[2025-07-30 00:14:27,189] INFO - 🧠 Client 2 training started
+[2025-07-30 00:15:00,045] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:15:02,346] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_5.png
+[2025-07-30 00:15:02,346] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:15:18,433] INFO - 📈 Client 4 training finished. Last val_acc: 0.9829
+[2025-07-30 00:15:19,866] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_4.png
+[2025-07-30 00:15:19,866] INFO - 📈 Client 4 training finished. Last val_acc: 0.9829
+[2025-07-30 00:16:11,889] INFO - 📈 Client 3 training finished. Last val_acc: 0.9850
+[2025-07-30 00:16:12,960] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_3.png
+[2025-07-30 00:16:12,960] INFO - 📈 Client 3 training finished. Last val_acc: 0.9850
+[2025-07-30 00:16:14,714] INFO - 📈 Client 1 training finished. Last val_acc: 0.9609
+[2025-07-30 00:16:15,188] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_1.png
+[2025-07-30 00:16:15,188] INFO - 📈 Client 1 training finished. Last val_acc: 0.9609
+[2025-07-30 00:17:25,476] INFO - 📈 Client 2 training finished. Last val_acc: 0.9931
+[2025-07-30 00:17:25,686] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_2.png
+[2025-07-30 00:17:25,686] INFO - 📈 Client 2 training finished. Last val_acc: 0.9931
+[2025-07-30 00:17:29,783] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:17:29,790] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:17:29,863] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:17:29,863] INFO - 📊 Model: "sequential_3"
+[2025-07-30 00:17:29,863] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:17:29,863] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:17:29,863] INFO - 📊 =================================================================
+[2025-07-30 00:17:29,863] INFO - 📊  dense_15 (Dense)            (None, 256)               1048832   
+[2025-07-30 00:17:29,864] INFO - 📊                                                                  
+[2025-07-30 00:17:29,864] INFO - 📊  dropout_6 (Dropout)         (None, 256)               0         
+[2025-07-30 00:17:29,864] INFO - 📊                                                                  
+[2025-07-30 00:17:29,864] INFO - 📊  dense_16 (Dense)            (None, 128)               32896     
+[2025-07-30 00:17:29,864] INFO - 📊                                                                  
+[2025-07-30 00:17:29,864] INFO - 📊  dropout_7 (Dropout)         (None, 128)               0         
+[2025-07-30 00:17:29,864] INFO - 📊                                                                  
+[2025-07-30 00:17:29,864] INFO - 📊  dense_17 (Dense)            (None, 64)                8256      
+[2025-07-30 00:17:29,864] INFO - 📊                                                                  
+[2025-07-30 00:17:29,864] INFO - 📊  dense_18 (Dense)            (None, 32)                2080      
+[2025-07-30 00:17:29,865] INFO - 📊                                                                  
+[2025-07-30 00:17:29,865] INFO - 📊  dense_19 (Dense)            (None, 1)                 33        
+[2025-07-30 00:17:29,865] INFO - 📊                                                                  
+[2025-07-30 00:17:29,865] INFO - 📊 =================================================================
+[2025-07-30 00:17:29,865] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:17:29,865] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:17:29,865] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:17:29,865] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:17:30,694] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:17:34,688] INFO - ✅ Loaded 6553 samples for client_2
+[2025-07-30 00:17:38,086] INFO - ✅ Loaded 6010 samples for client_3
+[2025-07-30 00:17:40,784] INFO - ✅ Loaded 4371 samples for client_4
+[2025-07-30 00:17:42,276] INFO - ✅ Loaded 2781 samples for client_5
+[2025-07-30 00:17:46,127] INFO - 📋 Classification Report for global_non-IID_round_3:
+              precision    recall  f1-score   support
+
+         bad       0.94      1.00      0.97     13703
+        good       1.00      0.93      0.96     12019
+
+    accuracy                           0.96     25722
+   macro avg       0.97      0.96      0.96     25722
+weighted avg       0.97      0.96      0.96     25722
+
+[2025-07-30 00:17:46,274] INFO - 📁 Saved confusion matrix to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/confusion_matrix_global_non-IID_round_3.png
+[2025-07-30 00:17:46,337] INFO - 📁 Saved loss/accuracy plot to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/metrics_global_non-IID_round_3.png
+[2025-07-30 00:17:46,954] INFO - 🧠 Client 3 training started
+[2025-07-30 00:17:46,972] INFO - 🧠 Client 1 training started
+[2025-07-30 00:17:46,990] INFO - 🧠 Client 2 training started
+[2025-07-30 00:17:47,021] INFO - 🧠 Client 4 training started
+[2025-07-30 00:17:47,028] INFO - 🧠 Client 5 training started
+[2025-07-30 00:18:20,846] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:18:22,848] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_5.png
+[2025-07-30 00:18:22,849] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:18:54,266] INFO - 📈 Client 4 training finished. Last val_acc: 0.9760
+[2025-07-30 00:18:55,960] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_4.png
+[2025-07-30 00:18:55,960] INFO - 📈 Client 4 training finished. Last val_acc: 0.9760
+[2025-07-30 00:19:08,412] INFO - 📈 Client 1 training finished. Last val_acc: 0.9626
+[2025-07-30 00:19:09,379] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_1.png
+[2025-07-30 00:19:09,379] INFO - 📈 Client 1 training finished. Last val_acc: 0.9626
+[2025-07-30 00:19:14,322] INFO - 📈 Client 3 training finished. Last val_acc: 0.9118
+[2025-07-30 00:19:15,396] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_3.png
+[2025-07-30 00:19:15,397] INFO - 📈 Client 3 training finished. Last val_acc: 0.9118
+[2025-07-30 00:19:33,590] INFO - 📈 Client 2 training finished. Last val_acc: 0.9893
+[2025-07-30 00:19:33,862] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_2.png
+[2025-07-30 00:19:33,862] INFO - 📈 Client 2 training finished. Last val_acc: 0.9893
+[2025-07-30 00:19:37,465] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:19:37,470] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:19:37,530] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:19:37,530] INFO - 📊 Model: "sequential_4"
+[2025-07-30 00:19:37,530] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:19:37,530] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:19:37,530] INFO - 📊 =================================================================
+[2025-07-30 00:19:37,530] INFO - 📊  dense_20 (Dense)            (None, 256)               1048832   
+[2025-07-30 00:19:37,530] INFO - 📊                                                                  
+[2025-07-30 00:19:37,530] INFO - 📊  dropout_8 (Dropout)         (None, 256)               0         
+[2025-07-30 00:19:37,530] INFO - 📊                                                                  
+[2025-07-30 00:19:37,530] INFO - 📊  dense_21 (Dense)            (None, 128)               32896     
+[2025-07-30 00:19:37,530] INFO - 📊                                                                  
+[2025-07-30 00:19:37,530] INFO - 📊  dropout_9 (Dropout)         (None, 128)               0         
+[2025-07-30 00:19:37,530] INFO - 📊                                                                  
+[2025-07-30 00:19:37,531] INFO - 📊  dense_22 (Dense)            (None, 64)                8256      
+[2025-07-30 00:19:37,531] INFO - 📊                                                                  
+[2025-07-30 00:19:37,531] INFO - 📊  dense_23 (Dense)            (None, 32)                2080      
+[2025-07-30 00:19:37,531] INFO - 📊                                                                  
+[2025-07-30 00:19:37,531] INFO - 📊  dense_24 (Dense)            (None, 1)                 33        
+[2025-07-30 00:19:37,531] INFO - 📊                                                                  
+[2025-07-30 00:19:37,531] INFO - 📊 =================================================================
+[2025-07-30 00:19:37,531] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:19:37,531] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:19:37,531] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:19:37,531] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:19:38,584] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:19:42,008] INFO - ✅ Loaded 6553 samples for client_2
+[2025-07-30 00:19:45,297] INFO - ✅ Loaded 6010 samples for client_3
+[2025-07-30 00:19:47,758] INFO - ✅ Loaded 4371 samples for client_4
+[2025-07-30 00:19:49,386] INFO - ✅ Loaded 2781 samples for client_5
+[2025-07-30 00:19:53,222] INFO - 📋 Classification Report for global_non-IID_round_4:
+              precision    recall  f1-score   support
+
+         bad       0.95      1.00      0.98     13703
+        good       1.00      0.95      0.97     12019
+
+    accuracy                           0.97     25722
+   macro avg       0.98      0.97      0.97     25722
+weighted avg       0.98      0.97      0.97     25722
+
+[2025-07-30 00:19:53,367] INFO - 📁 Saved confusion matrix to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/confusion_matrix_global_non-IID_round_4.png
+[2025-07-30 00:19:53,435] INFO - 📁 Saved loss/accuracy plot to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/metrics_global_non-IID_round_4.png
+[2025-07-30 00:19:54,074] INFO - 🧠 Client 2 training started
+[2025-07-30 00:19:54,119] INFO - 🧠 Client 5 training started
+[2025-07-30 00:19:54,122] INFO - 🧠 Client 4 training started
+[2025-07-30 00:19:54,131] INFO - 🧠 Client 1 training started
+[2025-07-30 00:19:54,141] INFO - 🧠 Client 3 training started
+[2025-07-30 00:20:27,284] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:20:30,606] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_5.png
+[2025-07-30 00:20:30,607] INFO - 📈 Client 5 training finished. Last val_acc: 1.0000
+[2025-07-30 00:20:41,980] INFO - 📈 Client 4 training finished. Last val_acc: 0.9977
+[2025-07-30 00:20:45,104] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_4.png
+[2025-07-30 00:20:45,105] INFO - 📈 Client 4 training finished. Last val_acc: 0.9977
+[2025-07-30 00:21:10,188] INFO - 📈 Client 3 training finished. Last val_acc: 0.9875
+[2025-07-30 00:21:10,929] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_3.png
+[2025-07-30 00:21:10,929] INFO - 📈 Client 3 training finished. Last val_acc: 0.9875
+[2025-07-30 00:21:16,689] INFO - 📈 Client 2 training finished. Last val_acc: 0.9847
+[2025-07-30 00:21:17,711] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_2.png
+[2025-07-30 00:21:17,711] INFO - 📈 Client 2 training finished. Last val_acc: 0.9847
+[2025-07-30 00:21:24,804] INFO - 📈 Client 1 training finished. Last val_acc: 0.9867
+[2025-07-30 00:21:25,353] INFO - 📁 Saved training curve to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/training_curve_client_1.png
+[2025-07-30 00:21:25,353] INFO - 📈 Client 1 training finished. Last val_acc: 0.9867
+[2025-07-30 00:21:28,733] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:21:28,739] INFO - 🔧 Building model with input dimension: 4096
+[2025-07-30 00:21:28,791] INFO - ✅ Model compiled successfully with Adam optimizer and binary crossentropy loss.
+[2025-07-30 00:21:28,791] INFO - 📊 Model: "sequential_5"
+[2025-07-30 00:21:28,791] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:21:28,791] INFO - 📊  Layer (type)                Output Shape              Param #   
+[2025-07-30 00:21:28,791] INFO - 📊 =================================================================
+[2025-07-30 00:21:28,791] INFO - 📊  dense_25 (Dense)            (None, 256)               1048832   
+[2025-07-30 00:21:28,792] INFO - 📊                                                                  
+[2025-07-30 00:21:28,792] INFO - 📊  dropout_10 (Dropout)        (None, 256)               0         
+[2025-07-30 00:21:28,792] INFO - 📊                                                                  
+[2025-07-30 00:21:28,792] INFO - 📊  dense_26 (Dense)            (None, 128)               32896     
+[2025-07-30 00:21:28,792] INFO - 📊                                                                  
+[2025-07-30 00:21:28,792] INFO - 📊  dropout_11 (Dropout)        (None, 128)               0         
+[2025-07-30 00:21:28,792] INFO - 📊                                                                  
+[2025-07-30 00:21:28,792] INFO - 📊  dense_27 (Dense)            (None, 64)                8256      
+[2025-07-30 00:21:28,792] INFO - 📊                                                                  
+[2025-07-30 00:21:28,792] INFO - 📊  dense_28 (Dense)            (None, 32)                2080      
+[2025-07-30 00:21:28,793] INFO - 📊                                                                  
+[2025-07-30 00:21:28,793] INFO - 📊  dense_29 (Dense)            (None, 1)                 33        
+[2025-07-30 00:21:28,793] INFO - 📊                                                                  
+[2025-07-30 00:21:28,793] INFO - 📊 =================================================================
+[2025-07-30 00:21:28,794] INFO - 📊 Total params: 1092097 (4.17 MB)
+[2025-07-30 00:21:28,794] INFO - 📊 Trainable params: 1092097 (4.17 MB)
+[2025-07-30 00:21:28,794] INFO - 📊 Non-trainable params: 0 (0.00 Byte)
+[2025-07-30 00:21:28,794] INFO - 📊 _________________________________________________________________
+[2025-07-30 00:21:29,625] INFO - ✅ Loaded 6007 samples for client_1
+[2025-07-30 00:21:32,767] INFO - ✅ Loaded 6553 samples for client_2
+[2025-07-30 00:21:34,615] INFO - ✅ Loaded 6010 samples for client_3
+[2025-07-30 00:21:35,297] INFO - ✅ Loaded 4371 samples for client_4
+[2025-07-30 00:21:35,731] INFO - ✅ Loaded 2781 samples for client_5
+[2025-07-30 00:21:39,407] INFO - 📋 Classification Report for global_non-IID_round_5:
+              precision    recall  f1-score   support
+
+         bad       0.93      1.00      0.96     13703
+        good       1.00      0.92      0.96     12019
+
+    accuracy                           0.96     25722
+   macro avg       0.97      0.96      0.96     25722
+weighted avg       0.96      0.96      0.96     25722
+
+[2025-07-30 00:21:39,552] INFO - 📁 Saved confusion matrix to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/confusion_matrix_global_non-IID_round_5.png
+[2025-07-30 00:21:39,615] INFO - 📁 Saved loss/accuracy plot to: resources/plot/global/test-train-split-data/non-IID/v1.0.0/metrics_global_non-IID_round_5.png
