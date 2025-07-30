@@ -327,3 +327,192 @@ weighted avg       0.98      0.97      0.97       200
 2025-07-30 01:51:12,715 [INFO] ✅ Precision-Recall Curve and F1 Isocurves displayed successfully.
 2025-07-30 01:51:12,716 [INFO] 🏁 Precision-Recall Curve Evaluation Completed.
 
+2025-07-30 14:57:51,275 [INFO] === Logs up and running @ [2025-07-30 14:57:51] ===
+2025-07-30 14:57:54,260 [INFO] 📂 Loading test data from: ../../resources/material/test-data/test-clients-npy/test_clients
+2025-07-30 14:57:54,276 [INFO] ✅ Normalized features with mean=-6.404539108276367, std=16.98590660095215
+2025-07-30 14:57:54,276 [INFO] 🧪 Loaded 16 test samples.
+2025-07-30 14:57:54,277 [INFO] 📊 Class distribution: {1: 7, 0: 9}
+2025-07-30 14:57:57,920 [INFO] 📦 Loading model from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 14:57:58,052 [INFO] ✅ Model successfully loaded from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 14:57:58,053 [INFO] 🔍 Performing predictions on test data...
+2025-07-30 14:57:58,266 [INFO] 
+📊 Accuracy: 75.00%
+2025-07-30 14:57:58,274 [INFO] 
+📄 Classification Report:
+              precision    recall  f1-score   support
+
+         bad       0.69      1.00      0.82         9
+        good       1.00      0.43      0.60         7
+
+    accuracy                           0.75        16
+   macro avg       0.85      0.71      0.71        16
+weighted avg       0.83      0.75      0.72        16
+
+2025-07-30 14:57:58,275 [INFO] 
+🔬 Prediction Details:
+2025-07-30 14:57:58,276 [INFO] ✅ test_tap_8.npy → True: good, Predicted: good
+2025-07-30 14:57:58,278 [INFO] ✅ test_tap_9.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,278 [INFO] ✅ test_tap_16.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,279 [INFO] ❌ test_tap_14.npy → True: good, Predicted: bad
+2025-07-30 14:57:58,280 [INFO] ✅ test_tap_15.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,281 [INFO] ✅ test_tap_11.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,282 [INFO] ✅ test_tap_10.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,282 [INFO] ✅ test_tap_12.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,283 [INFO] ✅ test_tap_13.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,284 [INFO] ❌ test_tap_2.npy → True: good, Predicted: bad
+2025-07-30 14:57:58,284 [INFO] ✅ test_tap_3.npy → True: good, Predicted: good
+2025-07-30 14:57:58,285 [INFO] ✅ test_tap_1.npy → True: good, Predicted: good
+2025-07-30 14:57:58,287 [INFO] ❌ test_tap_4.npy → True: good, Predicted: bad
+2025-07-30 14:57:58,287 [INFO] ✅ test_tap_5.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,288 [INFO] ❌ test_tap_7.npy → True: good, Predicted: bad
+2025-07-30 14:57:58,289 [INFO] ✅ test_tap_6.npy → True: bad, Predicted: bad
+2025-07-30 14:57:58,290 [INFO] ✅ Evaluation complete.
+2025-07-30 22:01:58,532 [INFO] 📦 Loading model from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:01:58,896 [INFO] ✅ Model successfully loaded from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:01:58,898 [INFO] 🔍 Performing predictions on test data...
+2025-07-30 22:01:59,124 [INFO] 
+📊 Accuracy: 75.00%
+2025-07-30 22:01:59,137 [INFO] 
+📄 Classification Report:
+              precision    recall  f1-score   support
+
+         bad       0.69      1.00      0.82         9
+        good       1.00      0.43      0.60         7
+
+    accuracy                           0.75        16
+   macro avg       0.85      0.71      0.71        16
+weighted avg       0.83      0.75      0.72        16
+
+2025-07-30 22:01:59,138 [INFO] 
+🔬 Prediction Details:
+2025-07-30 22:01:59,139 [INFO] ✅ test_tap_8.npy → True: good, Predicted: good
+2025-07-30 22:01:59,140 [INFO] ✅ test_tap_9.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,141 [INFO] ✅ test_tap_16.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,142 [INFO] ❌ test_tap_14.npy → True: good, Predicted: bad
+2025-07-30 22:01:59,142 [INFO] ✅ test_tap_15.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,143 [INFO] ✅ test_tap_11.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,144 [INFO] ✅ test_tap_10.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,145 [INFO] ✅ test_tap_12.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,146 [INFO] ✅ test_tap_13.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,148 [INFO] ❌ test_tap_2.npy → True: good, Predicted: bad
+2025-07-30 22:01:59,149 [INFO] ✅ test_tap_3.npy → True: good, Predicted: good
+2025-07-30 22:01:59,150 [INFO] ✅ test_tap_1.npy → True: good, Predicted: good
+2025-07-30 22:01:59,150 [INFO] ❌ test_tap_4.npy → True: good, Predicted: bad
+2025-07-30 22:01:59,151 [INFO] ✅ test_tap_5.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,151 [INFO] ❌ test_tap_7.npy → True: good, Predicted: bad
+2025-07-30 22:01:59,152 [INFO] ✅ test_tap_6.npy → True: bad, Predicted: bad
+2025-07-30 22:01:59,153 [INFO] ✅ Evaluation complete.
+2025-07-30 22:07:20,485 [INFO] 📦 Loading model from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:07:20,743 [INFO] ✅ Model successfully loaded from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:07:20,745 [INFO] 🔍 Performing predictions on test data...
+2025-07-30 22:07:20,893 [WARNING] 5 out of the last 87 calls to <function Model.make_predict_function.<locals>.predict_function at 0x148c79260> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-30 22:07:20,898 [INFO] 
+📊 Accuracy: 75.00%
+2025-07-30 22:07:20,907 [INFO] 
+📄 Classification Report:
+              precision    recall  f1-score   support
+
+         bad       0.69      1.00      0.82         9
+        good       1.00      0.43      0.60         7
+
+    accuracy                           0.75        16
+   macro avg       0.85      0.71      0.71        16
+weighted avg       0.83      0.75      0.72        16
+
+2025-07-30 22:07:20,908 [INFO] 
+🔬 Prediction Details:
+2025-07-30 22:07:20,920 [INFO] ✅ test_tap_8.npy → True: good, Predicted: good
+2025-07-30 22:07:20,922 [INFO] ✅ test_tap_9.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,923 [INFO] ✅ test_tap_16.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,928 [INFO] ❌ test_tap_14.npy → True: good, Predicted: bad
+2025-07-30 22:07:20,930 [INFO] ✅ test_tap_15.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,931 [INFO] ✅ test_tap_11.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,933 [INFO] ✅ test_tap_10.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,934 [INFO] ✅ test_tap_12.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,935 [INFO] ✅ test_tap_13.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,936 [INFO] ❌ test_tap_2.npy → True: good, Predicted: bad
+2025-07-30 22:07:20,937 [INFO] ✅ test_tap_3.npy → True: good, Predicted: good
+2025-07-30 22:07:20,937 [INFO] ✅ test_tap_1.npy → True: good, Predicted: good
+2025-07-30 22:07:20,938 [INFO] ❌ test_tap_4.npy → True: good, Predicted: bad
+2025-07-30 22:07:20,939 [INFO] ✅ test_tap_5.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,939 [INFO] ❌ test_tap_7.npy → True: good, Predicted: bad
+2025-07-30 22:07:20,940 [INFO] ✅ test_tap_6.npy → True: bad, Predicted: bad
+2025-07-30 22:07:20,941 [INFO] ✅ Evaluation complete.
+2025-07-30 22:32:59,027 [INFO] 📦 Loading model from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:32:59,208 [INFO] ✅ Model successfully loaded from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:32:59,210 [INFO] 🔍 Performing predictions on test data...
+2025-07-30 22:32:59,476 [WARNING] 6 out of the last 88 calls to <function Model.make_predict_function.<locals>.predict_function at 0x148838c20> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-30 22:32:59,479 [INFO] 
+📊 Accuracy: 75.00%
+2025-07-30 22:32:59,494 [INFO] 
+📄 Classification Report:
+              precision    recall  f1-score   support
+
+         bad       0.69      1.00      0.82         9
+        good       1.00      0.43      0.60         7
+
+    accuracy                           0.75        16
+   macro avg       0.85      0.71      0.71        16
+weighted avg       0.83      0.75      0.72        16
+
+2025-07-30 22:32:59,495 [INFO] 
+🔬 Prediction Details:
+2025-07-30 22:32:59,495 [INFO] ✅ test_tap_8.npy → True: good, Predicted: good
+2025-07-30 22:32:59,496 [INFO] ✅ test_tap_9.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,497 [INFO] ✅ test_tap_16.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,497 [INFO] ❌ test_tap_14.npy → True: good, Predicted: bad
+2025-07-30 22:32:59,498 [INFO] ✅ test_tap_15.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,499 [INFO] ✅ test_tap_11.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,499 [INFO] ✅ test_tap_10.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,500 [INFO] ✅ test_tap_12.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,501 [INFO] ✅ test_tap_13.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,501 [INFO] ❌ test_tap_2.npy → True: good, Predicted: bad
+2025-07-30 22:32:59,503 [INFO] ✅ test_tap_3.npy → True: good, Predicted: good
+2025-07-30 22:32:59,504 [INFO] ✅ test_tap_1.npy → True: good, Predicted: good
+2025-07-30 22:32:59,505 [INFO] ❌ test_tap_4.npy → True: good, Predicted: bad
+2025-07-30 22:32:59,505 [INFO] ✅ test_tap_5.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,507 [INFO] ❌ test_tap_7.npy → True: good, Predicted: bad
+2025-07-30 22:32:59,508 [INFO] ✅ test_tap_6.npy → True: bad, Predicted: bad
+2025-07-30 22:32:59,510 [INFO] ✅ Evaluation complete.
+2025-07-30 22:33:32,662 [INFO] === Logs up and running @ [2025-07-30 22:33:32] ===
+2025-07-30 22:37:48,853 [INFO] === Logs up and running @ [2025-07-30 22:37:48] ===
+2025-07-30 22:37:51,392 [INFO] 📂 Loading test data from: ../../resources/material/test-data/test-clients-npy/test_clients
+2025-07-30 22:39:35,347 [INFO] 📂 Loading test data from: ../../resources/material/test-data/test-clients-npy/test_clients
+2025-07-30 22:39:35,375 [INFO] ✅ Normalized features with mean=-19.433517456054688, std=26.39794921875
+2025-07-30 22:39:35,376 [INFO] 🧪 Loaded 16 test samples.
+2025-07-30 22:39:35,377 [INFO] 📊 Class distribution: {1: 7, 0: 9}
+2025-07-30 22:39:38,687 [INFO] 📦 Loading model from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:39:38,865 [INFO] ✅ Model successfully loaded from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-07-30 22:39:38,866 [INFO] 🔍 Performing predictions on test data...
+2025-07-30 22:39:39,114 [INFO] 
+📊 Accuracy: 43.75%
+2025-07-30 22:39:39,134 [INFO] 
+📄 Classification Report:
+              precision    recall  f1-score   support
+
+         bad       0.00      0.00      0.00         9
+        good       0.44      1.00      0.61         7
+
+    accuracy                           0.44        16
+   macro avg       0.22      0.50      0.30        16
+weighted avg       0.19      0.44      0.27        16
+
+2025-07-30 22:39:39,135 [INFO] 
+🔬 Prediction Details:
+2025-07-30 22:39:39,136 [INFO] ✅ mixed_tap_8.npy → True: good, Predicted: good
+2025-07-30 22:39:39,137 [INFO] ❌ mixed_tap_9.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,138 [INFO] ✅ mixed_tap_14.npy → True: good, Predicted: good
+2025-07-30 22:39:39,139 [INFO] ✅ mixed_tap_7.npy → True: good, Predicted: good
+2025-07-30 22:39:39,139 [INFO] ❌ mixed_tap_6.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,140 [INFO] ❌ mixed_tap_15.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,141 [INFO] ✅ mixed_tap_4.npy → True: good, Predicted: good
+2025-07-30 22:39:39,142 [INFO] ❌ mixed_tap_5.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,142 [INFO] ❌ mixed_tap_16.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,143 [INFO] ❌ mixed_tap_12.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,144 [INFO] ✅ mixed_tap_1.npy → True: good, Predicted: good
+2025-07-30 22:39:39,144 [INFO] ❌ mixed_tap_13.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,145 [INFO] ❌ mixed_tap_11.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,146 [INFO] ✅ mixed_tap_2.npy → True: good, Predicted: good
+2025-07-30 22:39:39,147 [INFO] ✅ mixed_tap_3.npy → True: good, Predicted: good
+2025-07-30 22:39:39,148 [INFO] ❌ mixed_tap_10.npy → True: bad, Predicted: good
+2025-07-30 22:39:39,149 [INFO] ✅ Evaluation complete.
