@@ -55,3 +55,45 @@
 [2025-07-30 00:48:12,496] INFO - 🔍 nonIID Round 5 — Accuracy: 0.9650, F1: 0.9637
 [2025-07-30 00:48:12,496] INFO - 🏆 Best model for nonIID: Round 4 — Accuracy: 0.9900
 [2025-07-30 00:48:12,503] INFO - 📊 Saved leaderboard to model_evaluation_leaderboard.csv
+[2025-07-31 22:31:14,252] INFO - 
+=== 🌐 SERVER STARTED — [2025-07-31 22:31:14] ===
+[2025-07-31 22:31:14,252] INFO - ⚙️  Distribution: non-IID | Clients: 5 | Rounds: 5
+
+[2025-07-31 22:35:01,755] INFO - 
+🎯 [ROUND 0] Evaluation Started
+[2025-07-31 22:35:04,239] INFO - 📊 [Round 0] Global Class Distribution: {0: 1880, 1: 1835}
+[2025-07-31 22:35:05,920] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/non-IID/global_non-IID_model_round_0.h5
+[2025-07-31 22:36:33,275] INFO - 
+🎯 [ROUND 1] Evaluation Started
+[2025-07-31 22:36:36,099] INFO - 📊 [Round 1] Global Class Distribution: {0: 1880, 1: 1835}
+[2025-07-31 22:36:37,049] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/non-IID/global_non-IID_model_round_1.h5
+[2025-07-31 22:37:07,999] INFO - 
+🎯 [ROUND 2] Evaluation Started
+[2025-07-31 22:37:08,789] INFO - 📊 [Round 2] Global Class Distribution: {0: 1880, 1: 1835}
+[2025-07-31 22:37:09,763] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/non-IID/global_non-IID_model_round_2.h5
+[2025-07-31 22:37:28,539] INFO - 
+🎯 [ROUND 3] Evaluation Started
+[2025-07-31 22:37:29,292] INFO - 📊 [Round 3] Global Class Distribution: {0: 1880, 1: 1835}
+[2025-07-31 22:37:30,195] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/non-IID/global_non-IID_model_round_3.h5
+[2025-07-31 22:37:47,519] INFO - 
+🎯 [ROUND 4] Evaluation Started
+[2025-07-31 22:37:48,299] INFO - 📊 [Round 4] Global Class Distribution: {0: 1880, 1: 1835}
+[2025-07-31 22:37:49,249] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/non-IID/global_non-IID_model_round_4.h5
+[2025-07-31 22:38:17,049] INFO - 
+🎯 [ROUND 5] Evaluation Started
+[2025-07-31 22:38:18,058] INFO - 📊 [Round 5] Global Class Distribution: {0: 1880, 1: 1835}
+[2025-07-31 22:38:18,960] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/non-IID/global_non-IID_model_round_5.h5
+[2025-07-31 22:38:19,275] INFO - 
+🛑 Server stopped — [2025-07-31 22:38:19]
+[2025-07-31 22:38:19,276] INFO - 
+📋 === FINAL FEDERATED TRAINING SUMMARY ===
+[2025-07-31 22:38:19,276] INFO - 🔁 Round 00 — Loss: 9.7722, Accuracy: 0.4939
+[2025-07-31 22:38:19,276] INFO - 🔁 Round 01 — Loss: 0.6933, Accuracy: 0.6546
+[2025-07-31 22:38:19,276] INFO - 🔁 Round 02 — Loss: 0.1845, Accuracy: 0.9359
+[2025-07-31 22:38:19,276] INFO - 🔁 Round 03 — Loss: 0.1333, Accuracy: 0.9515
+[2025-07-31 22:38:19,277] INFO - 🔁 Round 04 — Loss: 0.1364, Accuracy: 0.9507
+[2025-07-31 22:38:19,277] INFO - 🔁 Round 05 — Loss: 0.1137, Accuracy: 0.9596
+[2025-07-31 22:38:19,277] INFO - 
+🏆 Best Round: 5 | Accuracy: 0.9596
+[2025-07-31 22:38:19,301] INFO - ✅ Server training complete.
+

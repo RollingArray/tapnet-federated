@@ -40,3 +40,45 @@
 🏆 Best Round: 4 | Accuracy: 0.9851
 [2025-07-29 23:58:55,242] INFO - ✅ Server training complete.
 
+[2025-07-31 22:45:48,859] INFO - 
+=== 🌐 SERVER STARTED — [2025-07-31 22:45:48] ===
+[2025-07-31 22:45:48,860] INFO - ⚙️  Distribution: IID | Clients: 5 | Rounds: 5
+
+[2025-07-31 22:45:56,263] INFO - 
+🎯 [ROUND 0] Evaluation Started
+[2025-07-31 22:45:58,903] INFO - 📊 [Round 0] Global Class Distribution: {0: 1835, 1: 1835}
+[2025-07-31 22:46:00,249] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/IID/global_IID_model_round_0.h5
+[2025-07-31 22:47:24,755] INFO - 
+🎯 [ROUND 1] Evaluation Started
+[2025-07-31 22:47:27,473] INFO - 📊 [Round 1] Global Class Distribution: {0: 1835, 1: 1835}
+[2025-07-31 22:47:28,361] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/IID/global_IID_model_round_1.h5
+[2025-07-31 22:48:01,553] INFO - 
+🎯 [ROUND 2] Evaluation Started
+[2025-07-31 22:48:02,320] INFO - 📊 [Round 2] Global Class Distribution: {0: 1835, 1: 1835}
+[2025-07-31 22:48:03,259] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/IID/global_IID_model_round_2.h5
+[2025-07-31 22:48:27,847] INFO - 
+🎯 [ROUND 3] Evaluation Started
+[2025-07-31 22:48:28,673] INFO - 📊 [Round 3] Global Class Distribution: {0: 1835, 1: 1835}
+[2025-07-31 22:48:29,577] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/IID/global_IID_model_round_3.h5
+[2025-07-31 22:48:49,518] INFO - 
+🎯 [ROUND 4] Evaluation Started
+[2025-07-31 22:48:50,328] INFO - 📊 [Round 4] Global Class Distribution: {0: 1835, 1: 1835}
+[2025-07-31 22:48:51,595] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/IID/global_IID_model_round_4.h5
+[2025-07-31 22:49:15,370] INFO - 
+🎯 [ROUND 5] Evaluation Started
+[2025-07-31 22:49:16,154] INFO - 📊 [Round 5] Global Class Distribution: {0: 1835, 1: 1835}
+[2025-07-31 22:49:17,086] INFO - 💾 Model checkpoint saved to: model/global/v1.0.0/IID/global_IID_model_round_5.h5
+[2025-07-31 22:49:17,392] INFO - 
+🛑 Server stopped — [2025-07-31 22:49:17]
+[2025-07-31 22:49:17,392] INFO - 
+📋 === FINAL FEDERATED TRAINING SUMMARY ===
+[2025-07-31 22:49:17,393] INFO - 🔁 Round 00 — Loss: 4.8873, Accuracy: 0.5000
+[2025-07-31 22:49:17,393] INFO - 🔁 Round 01 — Loss: 0.4044, Accuracy: 0.8343
+[2025-07-31 22:49:17,393] INFO - 🔁 Round 02 — Loss: 0.0998, Accuracy: 0.9768
+[2025-07-31 22:49:17,393] INFO - 🔁 Round 03 — Loss: 0.0683, Accuracy: 0.9834
+[2025-07-31 22:49:17,394] INFO - 🔁 Round 04 — Loss: 0.0709, Accuracy: 0.9749
+[2025-07-31 22:49:17,424] INFO - 🔁 Round 05 — Loss: 0.0530, Accuracy: 0.9820
+[2025-07-31 22:49:17,425] INFO - 
+🏆 Best Round: 3 | Accuracy: 0.9834
+[2025-07-31 22:49:17,425] INFO - ✅ Server training complete.
+

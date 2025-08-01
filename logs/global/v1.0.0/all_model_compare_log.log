@@ -36,3 +36,37 @@
 [2025-07-30 01:43:34,294] INFO - 📊 Saved leaderboard CSV to resources/csv/global_model_evaluation_leaderboard_v1.0.0.csv
 [2025-07-30 01:43:34,811] INFO - 📈 Saved leaderboard plot to resources/plot/global/test-train-split-data/v1.0.0/global_model_evaluation_leaderboard_v1.0.0.png
 [2025-07-30 01:43:34,812] INFO - === Logs ended @ [2025-07-30 01:43:34] ===
+[2025-07-31 22:44:18,954] INFO - === All model evaluation Logs up and running @ [2025-07-31 22:44:18] ===
+[2025-07-31 22:44:19,474] INFO - 🔍 IID Round 0 — Accuracy: 0.5000, F1: 0.0000
+[2025-07-31 22:44:19,699] INFO - 🔍 IID Round 1 — Accuracy: 0.9450, F1: 0.9458
+[2025-07-31 22:44:19,925] INFO - 🔍 IID Round 2 — Accuracy: 0.9800, F1: 0.9798
+[2025-07-31 22:44:20,143] INFO - 🔍 IID Round 3 — Accuracy: 0.9900, F1: 0.9899
+[2025-07-31 22:44:20,362] INFO - 🔍 IID Round 4 — Accuracy: 0.9900, F1: 0.9899
+[2025-07-31 22:44:20,581] INFO - 🔍 IID Round 5 — Accuracy: 0.9550, F1: 0.9529
+[2025-07-31 22:50:43,681] INFO - === All model evaluation Logs up and running @ [2025-07-31 22:50:43] ===
+[2025-07-31 22:50:44,175] INFO - 🔍 IID Round 0 — Accuracy: 0.5000, F1: 0.0000
+[2025-07-31 22:50:44,398] INFO - 🔍 IID Round 1 — Accuracy: 0.8200, F1: 0.8462
+[2025-07-31 22:50:44,615] INFO - 🔍 IID Round 2 — Accuracy: 0.9900, F1: 0.9900
+[2025-07-31 22:50:44,831] INFO - 🔍 IID Round 3 — Accuracy: 0.9950, F1: 0.9950
+[2025-07-31 22:50:45,044] INFO - 🔍 IID Round 4 — Accuracy: 0.9900, F1: 0.9899
+[2025-07-31 22:50:45,256] INFO - 🔍 IID Round 5 — Accuracy: 1.0000, F1: 1.0000
+[2025-07-31 22:59:56,281] INFO - === All model evaluation Logs up and running @ [2025-07-31 22:59:56] ===
+[2025-07-31 22:59:56,658] INFO - 🔍 IID Round 0 — Accuracy: 0.5000, F1: 0.0000
+[2025-07-31 22:59:56,869] INFO - 🔍 IID Round 1 — Accuracy: 0.8200, F1: 0.8462
+[2025-07-31 22:59:57,088] INFO - 🔍 IID Round 2 — Accuracy: 0.9900, F1: 0.9900
+[2025-07-31 22:59:57,308] INFO - 🔍 IID Round 3 — Accuracy: 0.9950, F1: 0.9950
+[2025-07-31 22:59:57,518] INFO - 🔍 IID Round 4 — Accuracy: 0.9900, F1: 0.9899
+[2025-07-31 22:59:57,722] INFO - 🔍 IID Round 5 — Accuracy: 1.0000, F1: 1.0000
+[2025-07-31 22:59:57,722] INFO - 🏆 Best model for IID: Round 5 — Accuracy: 1.0000
+[2025-07-31 22:59:57,740] INFO - ✅ Saved best model for IID to model/global/v1.0.0/IID/global_best_IID_model.h5
+[2025-07-31 22:59:57,933] INFO - 🔍 non-IID Round 0 — Accuracy: 0.5000, F1: 0.6667
+[2025-07-31 22:59:58,121] INFO - 🔍 non-IID Round 1 — Accuracy: 0.6550, F1: 0.4733
+[2025-07-31 22:59:58,308] INFO - 🔍 non-IID Round 2 — Accuracy: 0.9250, F1: 0.9206
+[2025-07-31 22:59:58,499] INFO - 🔍 non-IID Round 3 — Accuracy: 0.9600, F1: 0.9592
+[2025-07-31 22:59:58,685] INFO - 🔍 non-IID Round 4 — Accuracy: 0.9650, F1: 0.9637
+[2025-07-31 22:59:58,889] INFO - 🔍 non-IID Round 5 — Accuracy: 0.9750, F1: 0.9744
+[2025-07-31 22:59:58,889] INFO - 🏆 Best model for non-IID: Round 5 — Accuracy: 0.9750
+[2025-07-31 22:59:58,903] INFO - ✅ Saved best model for non-IID to model/global/v1.0.0/non-IID/global_best_non-IID_model.h5
+[2025-07-31 22:59:58,912] INFO - 📊 Saved leaderboard CSV to resources/csv/global_model_evaluation_leaderboard_v1.0.0.csv
+[2025-07-31 22:59:59,484] INFO - 📈 Saved leaderboard plot to resources/plot/global/test-train-split-data/v1.0.0/global_model_evaluation_leaderboard_v1.0.0.png
+[2025-07-31 22:59:59,485] INFO - === Logs ended @ [2025-07-31 22:59:59] ===
