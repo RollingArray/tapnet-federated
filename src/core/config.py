@@ -37,7 +37,7 @@ EARLY_STOP_PATIENCE = 10
 EARLY_STOP_MIN_DELTA = 0.001
 
 # === Directories ===
-DISTRIBUTION = "non-IID" 
+DISTRIBUTION = "IID" 
 MODEL_TYPE = "global"
 MODEL_VERSION = "v1.0.0"
 FEDERATED_DATA_DIR = f"resources/material/train-data/federated/{DISTRIBUTION}-npy"
