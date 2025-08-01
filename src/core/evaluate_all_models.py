@@ -119,26 +119,39 @@ def plot_leaderboard(results_df: pd.DataFrame, filename: str):
     plt.close()
 
 
+import re
+
 # === Evaluate all models and pick best ===
 def evaluate_all(model_dir: str, tag: str, X_test, y_test):
     results = []
 
     for fname in sorted(os.listdir(model_dir)):
-        if fname.endswith(".h5"):
-            round_num = int(fname.split("_")[-1].split(".")[0])
+        if fname.endswith(".h5") and "_round_" in fname:
+            match = re.search(r'_round_(\d+)', fname)
+            if not match:
+                log.warning(f"⚠️ Skipping invalid model filename: {fname}")
+                continue
+
+            round_num = int(match.group(1))
             path = os.path.join(model_dir, fname)
-            model = load_model(path)
 
-            acc, f1, y_pred = evaluate_model(model, X_test, y_test)
-            log.info(f"🔍 {tag} Round {round_num} — Accuracy: {acc:.4f}, F1: {f1:.4f}")
+            try:
+                model = load_model(path)
+                acc, f1, y_pred = evaluate_model(model, X_test, y_test)
+                log.info(f"🔍 {tag} Round {round_num} — Accuracy: {acc:.4f}, F1: {f1:.4f}")
 
-            results.append({
-                "tag": tag,
-                "round": round_num,
-                "model_path": path,
-                "accuracy": acc,
-                "f1_score": f1
-            })
+                results.append({
+                    "tag": tag,
+                    "round": round_num,
+                    "model_path": path,
+                    "accuracy": acc,
+                    "f1_score": f1
+                })
+            except Exception as e:
+                log.error(f"❌ Failed to evaluate model {fname}: {e}")
+
+    if not results:
+        raise ValueError(f"No valid models found in {model_dir} for tag {tag}")
 
     # Choose best model (highest accuracy)
     best_model = sorted(results, key=lambda x: x["accuracy"], reverse=True)[0]
@@ -151,6 +164,7 @@ def evaluate_all(model_dir: str, tag: str, X_test, y_test):
     log.info(f"✅ Saved best model for {tag} to {tag_path}")
 
     return results, best_model
+
 
 
 # === Entrypoint ===
