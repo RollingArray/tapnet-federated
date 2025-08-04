@@ -1,14 +1,14 @@
-2025-08-04 13:01:05,817 [INFO] === Logs up and running @ [2025-08-04 13:01:05] ===
-2025-08-04 13:01:05,851 [INFO] 📂 Loading test data from: ../../resources/material/train-data/federated/IID-npy/test_clients
-2025-08-04 13:01:05,974 [INFO] ✅ Normalized features with mean=-6.143979072570801, std=15.940681457519531
-2025-08-04 13:01:05,975 [INFO] 🧪 Loaded 200 test samples.
-2025-08-04 13:01:05,975 [INFO] 📊 Class distribution: {0: 100, 1: 100}
-2025-08-04 13:01:05,985 [INFO] 📦 Loading model from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
-2025-08-04 13:01:06,132 [INFO] ✅ Model successfully loaded from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
-2025-08-04 13:01:06,133 [INFO] 🔍 Performing predictions on test data...
-2025-08-04 13:01:06,238 [INFO] 
+2025-08-04 13:53:13,532 [INFO] === Logs up and running @ [2025-08-04 13:53:13] ===
+2025-08-04 13:53:13,576 [INFO] 📂 Loading test data from: ../../resources/material/train-data/federated/IID-npy/test_clients
+2025-08-04 13:53:13,843 [INFO] ✅ Normalized features with mean=-6.143979072570801, std=15.940681457519531
+2025-08-04 13:53:13,844 [INFO] 🧪 Loaded 200 test samples.
+2025-08-04 13:53:13,844 [INFO] 📊 Class distribution: {0: 100, 1: 100}
+2025-08-04 13:53:13,856 [INFO] 📦 Loading model from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-08-04 13:53:13,945 [INFO] ✅ Model successfully loaded from: ../../model/global/v1.0.0/IID/global_best_IID_model.h5
+2025-08-04 13:53:13,946 [INFO] 🔍 Performing predictions on test data...
+2025-08-04 13:53:14,049 [INFO] 
 📊 Accuracy: 98.00%
-2025-08-04 13:01:06,245 [INFO] 
+2025-08-04 13:53:14,058 [INFO] 
 📄 Classification Report:
               precision    recall  f1-score   support
 
@@ -19,311 +19,524 @@
    macro avg       0.98      0.98      0.98       200
 weighted avg       0.98      0.98      0.98       200
 
-2025-08-04 13:01:06,246 [INFO] 
+2025-08-04 13:53:14,058 [INFO] 
 🔬 Prediction Details:
-2025-08-04 13:01:06,246 [INFO] ✅ bad_tap_79_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,247 [INFO] ✅ good_tap_107_aug_1478.npy → True: good, Predicted: good
-2025-08-04 13:01:06,248 [INFO] ✅ bad_tap_48_aug_1310.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,248 [INFO] ✅ bad_tap_204_aug_578.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,249 [INFO] ✅ bad_tap_163_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,249 [INFO] ✅ good_tap_140_aug_723.npy → True: good, Predicted: good
-2025-08-04 13:01:06,250 [INFO] ✅ bad_tap_118_aug_1163.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,251 [INFO] ✅ good_tap_188_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,251 [INFO] ✅ bad_tap_194_aug_1351.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,252 [INFO] ✅ bad_tap_180_aug_1357.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,253 [INFO] ✅ good_tap_90_aug_28.npy → True: good, Predicted: good
-2025-08-04 13:01:06,254 [INFO] ✅ good_tap_52_aug_70.npy → True: good, Predicted: good
-2025-08-04 13:01:06,254 [INFO] ✅ good_tap_1_aug_943.npy → True: good, Predicted: good
-2025-08-04 13:01:06,255 [INFO] ✅ good_tap_193_aug_682.npy → True: good, Predicted: good
-2025-08-04 13:01:06,256 [INFO] ✅ good_tap_7_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,256 [INFO] ✅ bad_tap_143_aug_1331.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,257 [INFO] ✅ good_tap_10_aug_977.npy → True: good, Predicted: good
-2025-08-04 13:01:06,258 [INFO] ✅ bad_tap_208_aug_1295.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,258 [INFO] ✅ bad_tap_79_aug_527.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,259 [INFO] ✅ bad_tap_81_aug_324.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,260 [INFO] ✅ good_tap_16_aug_1201.npy → True: good, Predicted: good
-2025-08-04 13:01:06,260 [INFO] ✅ bad_tap_123_aug_1075.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,261 [INFO] ✅ good_tap_39_aug_953.npy → True: good, Predicted: good
-2025-08-04 13:01:06,262 [INFO] ✅ bad_tap_121_aug_968.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,262 [INFO] ✅ good_tap_98_aug_1438.npy → True: good, Predicted: good
-2025-08-04 13:01:06,263 [INFO] ✅ good_tap_212_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,264 [INFO] ✅ bad_tap_211_aug_596.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,264 [INFO] ✅ good_tap_100_aug_1709.npy → True: good, Predicted: good
-2025-08-04 13:01:06,265 [INFO] ✅ bad_tap_17_aug_1012.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,266 [INFO] ✅ good_tap_94_aug_418.npy → True: good, Predicted: good
-2025-08-04 13:01:06,266 [INFO] ✅ bad_tap_156_aug_1269.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,267 [INFO] ✅ bad_tap_62_aug_1409.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,268 [INFO] ✅ bad_tap_143_aug_1334.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,268 [INFO] ✅ good_tap_152_aug_474.npy → True: good, Predicted: good
-2025-08-04 13:01:06,269 [INFO] ✅ bad_tap_152_aug_1707.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,270 [INFO] ✅ good_tap_31_aug_524.npy → True: good, Predicted: good
-2025-08-04 13:01:06,270 [INFO] ✅ good_tap_61_aug_1602.npy → True: good, Predicted: good
-2025-08-04 13:01:06,271 [INFO] ✅ good_tap_34_aug_870.npy → True: good, Predicted: good
-2025-08-04 13:01:06,272 [INFO] ✅ good_tap_91_aug_81.npy → True: good, Predicted: good
-2025-08-04 13:01:06,273 [INFO] ✅ good_tap_27_aug_623.npy → True: good, Predicted: good
-2025-08-04 13:01:06,273 [INFO] ✅ bad_tap_218_aug_1688.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,274 [INFO] ✅ bad_tap_119_aug_1216.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,274 [INFO] ✅ good_tap_140_aug_726.npy → True: good, Predicted: good
-2025-08-04 13:01:06,275 [INFO] ✅ bad_tap_182_aug_1375.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,276 [INFO] ✅ bad_tap_196_aug_1367.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,277 [INFO] ✅ good_tap_189_aug_1245.npy → True: good, Predicted: good
-2025-08-04 13:01:06,277 [INFO] ✅ bad_tap_206_aug_429.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,278 [INFO] ✅ bad_tap_80_aug_189.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,279 [INFO] ✅ bad_tap_129_aug_708.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,279 [INFO] ✅ bad_tap_76_aug_1395.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,280 [INFO] ✅ bad_tap_41_aug_144.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,281 [INFO] ✅ bad_tap_53_aug_461.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,281 [INFO] ✅ bad_tap_212_aug_422.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,282 [INFO] ✅ good_tap_136_aug_332.npy → True: good, Predicted: good
-2025-08-04 13:01:06,282 [INFO] ✅ bad_tap_167_aug_620.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,283 [INFO] ✅ good_tap_149_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,284 [INFO] ✅ good_tap_135_aug_426.npy → True: good, Predicted: good
-2025-08-04 13:01:06,284 [INFO] ✅ bad_tap_166_aug_539.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,285 [INFO] ✅ bad_tap_203_aug_264.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,285 [INFO] ✅ bad_tap_193_aug_1497.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,286 [INFO] ✅ bad_tap_172_aug_557.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,287 [INFO] ✅ bad_tap_24_aug_863.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,288 [INFO] ✅ good_tap_126_aug_120.npy → True: good, Predicted: good
-2025-08-04 13:01:06,288 [INFO] ✅ good_tap_80_aug_413.npy → True: good, Predicted: good
-2025-08-04 13:01:06,289 [INFO] ✅ good_tap_194_aug_808.npy → True: good, Predicted: good
-2025-08-04 13:01:06,289 [INFO] ✅ bad_tap_87_aug_650.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,290 [INFO] ✅ good_tap_135_aug_424.npy → True: good, Predicted: good
-2025-08-04 13:01:06,291 [INFO] ✅ good_tap_209_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,291 [INFO] ✅ bad_tap_112_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,292 [INFO] ✅ bad_tap_124_aug_1173.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,292 [INFO] ✅ good_tap_80_aug_412.npy → True: good, Predicted: good
-2025-08-04 13:01:06,293 [INFO] ✅ good_tap_126_aug_121.npy → True: good, Predicted: good
-2025-08-04 13:01:06,294 [INFO] ✅ bad_tap_212_aug_420.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,294 [INFO] ✅ bad_tap_24_aug_862.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,295 [INFO] ✅ good_tap_83_aug_313.npy → True: good, Predicted: good
-2025-08-04 13:01:06,296 [INFO] ✅ good_tap_92_aug_197.npy → True: good, Predicted: good
-2025-08-04 13:01:06,296 [INFO] ✅ good_tap_186_aug_585.npy → True: good, Predicted: good
-2025-08-04 13:01:06,297 [INFO] ✅ good_tap_186_aug_591.npy → True: good, Predicted: good
-2025-08-04 13:01:06,297 [INFO] ✅ bad_tap_155_aug_1389.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,298 [INFO] ✅ good_tap_25_aug_515.npy → True: good, Predicted: good
-2025-08-04 13:01:06,298 [INFO] ✅ bad_tap_68_aug_56.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,299 [INFO] ✅ good_tap_49_aug_1589.npy → True: good, Predicted: good
-2025-08-04 13:01:06,300 [INFO] ✅ good_tap_208_aug_874.npy → True: good, Predicted: good
-2025-08-04 13:01:06,301 [INFO] ✅ good_tap_177_aug_1342.npy → True: good, Predicted: good
-2025-08-04 13:01:06,302 [INFO] ✅ bad_tap_44_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,302 [INFO] ✅ bad_tap_165_aug_376.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,303 [INFO] ✅ good_tap_174_aug_1216.npy → True: good, Predicted: good
-2025-08-04 13:01:06,303 [INFO] ✅ good_tap_112_aug_1541.npy → True: good, Predicted: good
-2025-08-04 13:01:06,304 [INFO] ✅ bad_tap_5_aug_110.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,305 [INFO] ✅ bad_tap_5_aug_106.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,306 [INFO] ✅ good_tap_212_aug_1079.npy → True: good, Predicted: good
-2025-08-04 13:01:06,307 [INFO] ✅ good_tap_12_aug_1080.npy → True: good, Predicted: good
-2025-08-04 13:01:06,307 [INFO] ✅ bad_tap_72_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,308 [INFO] ✅ bad_tap_90_aug_488.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,309 [INFO] ✅ bad_tap_71_aug_1718.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,310 [INFO] ✅ bad_tap_111_aug_914.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,310 [INFO] ✅ bad_tap_113_aug_869.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,311 [INFO] ✅ bad_tap_91_aug_342.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,312 [INFO] ✅ bad_tap_167_aug_618.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,312 [INFO] ✅ good_tap_196_aug_796.npy → True: good, Predicted: good
-2025-08-04 13:01:06,313 [INFO] ✅ bad_tap_106_aug_842.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,313 [INFO] ✅ good_tap_20_aug_856.npy → True: good, Predicted: good
-2025-08-04 13:01:06,314 [INFO] ✅ good_tap_5_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,315 [INFO] ✅ good_tap_85_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,316 [INFO] ✅ good_tap_112_aug_1542.npy → True: good, Predicted: good
-2025-08-04 13:01:06,351 [INFO] ✅ good_tap_102_aug_1558.npy → True: good, Predicted: good
-2025-08-04 13:01:06,352 [INFO] ✅ good_tap_193_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,353 [INFO] ✅ good_tap_19_aug_529.npy → True: good, Predicted: good
-2025-08-04 13:01:06,354 [INFO] ✅ good_tap_83_aug_318.npy → True: good, Predicted: good
-2025-08-04 13:01:06,355 [INFO] ✅ bad_tap_102_aug_777.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,355 [INFO] ✅ good_tap_92_aug_198.npy → True: good, Predicted: good
-2025-08-04 13:01:06,356 [INFO] ✅ bad_tap_165_aug_378.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,357 [INFO] ✅ good_tap_64_aug_1514.npy → True: good, Predicted: good
-2025-08-04 13:01:06,358 [INFO] ✅ bad_tap_101_aug_738.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,358 [INFO] ✅ bad_tap_90_aug_490.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,368 [INFO] ✅ bad_tap_111_aug_918.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,369 [INFO] ✅ bad_tap_67_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,370 [INFO] ✅ good_tap_184_aug_569.npy → True: good, Predicted: good
-2025-08-04 13:01:06,371 [INFO] ✅ good_tap_119_aug_18.npy → True: good, Predicted: good
-2025-08-04 13:01:06,372 [INFO] ❌ bad_tap_151_aug_1577.npy → True: bad, Predicted: good
-2025-08-04 13:01:06,373 [INFO] ✅ bad_tap_5_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,373 [INFO] ✅ good_tap_116_aug_1544.npy → True: good, Predicted: good
-2025-08-04 13:01:06,374 [INFO] ✅ good_tap_8_aug_484.npy → True: good, Predicted: good
-2025-08-04 13:01:06,375 [INFO] ✅ bad_tap_95_aug_333.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,376 [INFO] ✅ good_tap_13_aug_1088.npy → True: good, Predicted: good
-2025-08-04 13:01:06,377 [INFO] ✅ good_tap_139_aug_1446.npy → True: good, Predicted: good
-2025-08-04 13:01:06,378 [INFO] ✅ good_tap_23_aug_755.npy → True: good, Predicted: good
-2025-08-04 13:01:06,379 [INFO] ✅ good_tap_62_aug_1677.npy → True: good, Predicted: good
-2025-08-04 13:01:06,380 [INFO] ✅ bad_tap_207_aug_407.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,380 [INFO] ✅ good_tap_119_aug_23.npy → True: good, Predicted: good
-2025-08-04 13:01:06,381 [INFO] ✅ good_tap_31_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,382 [INFO] ✅ good_tap_137_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,382 [INFO] ✅ good_tap_47_aug_48.npy → True: good, Predicted: good
-2025-08-04 13:01:06,383 [INFO] ✅ bad_tap_165_aug_381.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,384 [INFO] ✅ good_tap_137_aug_227.npy → True: good, Predicted: good
-2025-08-04 13:01:06,384 [INFO] ✅ bad_tap_216_aug_254.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,385 [INFO] ✅ bad_tap_1_aug_563.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,386 [INFO] ✅ good_tap_168_aug_704.npy → True: good, Predicted: good
-2025-08-04 13:01:06,386 [INFO] ✅ good_tap_185_aug_449.npy → True: good, Predicted: good
-2025-08-04 13:01:06,387 [INFO] ✅ good_tap_207_aug_1107.npy → True: good, Predicted: good
-2025-08-04 13:01:06,388 [INFO] ✅ bad_tap_207_aug_406.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,388 [INFO] ✅ bad_tap_158_aug_479.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,389 [INFO] ✅ bad_tap_121_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,390 [INFO] ✅ good_tap_147_aug_556.npy → True: good, Predicted: good
-2025-08-04 13:01:06,390 [INFO] ✅ good_tap_137_aug_230.npy → True: good, Predicted: good
-2025-08-04 13:01:06,391 [INFO] ✅ bad_tap_214_aug_98.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,392 [INFO] ✅ bad_tap_35_aug_804.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,392 [INFO] ✅ good_tap_169_aug_782.npy → True: good, Predicted: good
-2025-08-04 13:01:06,393 [INFO] ✅ bad_tap_46_aug_390.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,394 [INFO] ✅ bad_tap_41_aug_149.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,394 [INFO] ✅ good_tap_2_aug_1042.npy → True: good, Predicted: good
-2025-08-04 13:01:06,395 [INFO] ✅ good_tap_34_aug_868.npy → True: good, Predicted: good
-2025-08-04 13:01:06,396 [INFO] ✅ good_tap_99_aug_1395.npy → True: good, Predicted: good
-2025-08-04 13:01:06,396 [INFO] ✅ good_tap_73_aug_1425.npy → True: good, Predicted: good
-2025-08-04 13:01:06,397 [INFO] ✅ bad_tap_158_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,397 [INFO] ❌ bad_tap_122_aug_1054.npy → True: bad, Predicted: good
-2025-08-04 13:01:06,398 [INFO] ✅ bad_tap_86_aug_508.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,399 [INFO] ✅ good_tap_99_aug_1394.npy → True: good, Predicted: good
-2025-08-04 13:01:06,399 [INFO] ✅ bad_tap_105_aug_902.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,400 [INFO] ✅ bad_tap_170_aug_468.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,401 [INFO] ✅ good_tap_2_aug_1041.npy → True: good, Predicted: good
-2025-08-04 13:01:06,401 [INFO] ✅ bad_tap_51_aug_549.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,402 [INFO] ✅ good_tap_98_aug_1434.npy → True: good, Predicted: good
-2025-08-04 13:01:06,403 [INFO] ✅ good_tap_68_aug_283.npy → True: good, Predicted: good
-2025-08-04 13:01:06,404 [INFO] ✅ bad_tap_16_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,404 [INFO] ✅ bad_tap_156_aug_1265.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,405 [INFO] ✅ good_tap_41_aug_258.npy → True: good, Predicted: good
-2025-08-04 13:01:06,406 [INFO] ✅ good_tap_143_aug_820.npy → True: good, Predicted: good
-2025-08-04 13:01:06,406 [INFO] ✅ bad_tap_137_aug_1081.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,407 [INFO] ✅ bad_tap_201_aug_82.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,407 [INFO] ✅ good_tap_191_aug_457.npy → True: good, Predicted: good
-2025-08-04 13:01:06,408 [INFO] ✅ good_tap_167_aug_924.npy → True: good, Predicted: good
-2025-08-04 13:01:06,409 [INFO] ✅ bad_tap_43_aug_218.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,409 [INFO] ✅ good_tap_114_aug_1698.npy → True: good, Predicted: good
-2025-08-04 13:01:06,410 [INFO] ✅ good_tap_107_aug_1477.npy → True: good, Predicted: good
-2025-08-04 13:01:06,411 [INFO] ✅ good_tap_194_org.npy → True: good, Predicted: good
-2025-08-04 13:01:06,411 [INFO] ✅ bad_tap_37_aug_688.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,412 [INFO] ✅ good_tap_97_aug_305.npy → True: good, Predicted: good
-2025-08-04 13:01:06,413 [INFO] ✅ good_tap_142_aug_889.npy → True: good, Predicted: good
-2025-08-04 13:01:06,413 [INFO] ✅ good_tap_75_aug_1593.npy → True: good, Predicted: good
-2025-08-04 13:01:06,414 [INFO] ❌ bad_tap_122_aug_1053.npy → True: bad, Predicted: good
-2025-08-04 13:01:06,415 [INFO] ✅ bad_tap_119_aug_1221.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,415 [INFO] ✅ bad_tap_121_aug_974.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,416 [INFO] ✅ bad_tap_104_aug_956.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,416 [INFO] ✅ good_tap_113_aug_1470.npy → True: good, Predicted: good
-2025-08-04 13:01:06,417 [INFO] ✅ bad_tap_168_aug_1424.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,418 [INFO] ✅ bad_tap_67_aug_1547.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,418 [INFO] ✅ bad_tap_75_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,419 [INFO] ✅ bad_tap_138_aug_966.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,420 [INFO] ✅ good_tap_2_aug_1047.npy → True: good, Predicted: good
-2025-08-04 13:01:06,420 [INFO] ❌ bad_tap_168_aug_1426.npy → True: bad, Predicted: good
-2025-08-04 13:01:06,421 [INFO] ✅ good_tap_41_aug_263.npy → True: good, Predicted: good
-2025-08-04 13:01:06,422 [INFO] ✅ good_tap_211_aug_950.npy → True: good, Predicted: good
-2025-08-04 13:01:06,422 [INFO] ✅ bad_tap_21_org.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,423 [INFO] ✅ bad_tap_116_aug_797.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,423 [INFO] ✅ good_tap_66_aug_1408.npy → True: good, Predicted: good
-2025-08-04 13:01:06,424 [INFO] ✅ good_tap_203_aug_1190.npy → True: good, Predicted: good
-2025-08-04 13:01:06,425 [INFO] ✅ bad_tap_201_aug_84.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,425 [INFO] ✅ good_tap_10_aug_983.npy → True: good, Predicted: good
-2025-08-04 13:01:06,426 [INFO] ✅ bad_tap_194_aug_1349.npy → True: bad, Predicted: bad
-2025-08-04 13:01:06,426 [INFO] ✅ Evaluation complete.
-2025-08-04 13:01:06,436 [INFO] 
-🧮 Generating confusion matrix @ [2025-08-04 13:01:06]
-2025-08-04 13:01:06,439 [INFO] 🔢 Confusion Matrix:
+2025-08-04 13:53:14,059 [INFO] ✅ bad_tap_79_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,060 [INFO] ✅ good_tap_107_aug_1478.npy → True: good, Predicted: good
+2025-08-04 13:53:14,061 [INFO] ✅ bad_tap_48_aug_1310.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,062 [INFO] ✅ bad_tap_204_aug_578.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,062 [INFO] ✅ bad_tap_163_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,063 [INFO] ✅ good_tap_140_aug_723.npy → True: good, Predicted: good
+2025-08-04 13:53:14,064 [INFO] ✅ bad_tap_118_aug_1163.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,064 [INFO] ✅ good_tap_188_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,065 [INFO] ✅ bad_tap_194_aug_1351.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,066 [INFO] ✅ bad_tap_180_aug_1357.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,066 [INFO] ✅ good_tap_90_aug_28.npy → True: good, Predicted: good
+2025-08-04 13:53:14,067 [INFO] ✅ good_tap_52_aug_70.npy → True: good, Predicted: good
+2025-08-04 13:53:14,068 [INFO] ✅ good_tap_1_aug_943.npy → True: good, Predicted: good
+2025-08-04 13:53:14,068 [INFO] ✅ good_tap_193_aug_682.npy → True: good, Predicted: good
+2025-08-04 13:53:14,069 [INFO] ✅ good_tap_7_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,070 [INFO] ✅ bad_tap_143_aug_1331.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,071 [INFO] ✅ good_tap_10_aug_977.npy → True: good, Predicted: good
+2025-08-04 13:53:14,071 [INFO] ✅ bad_tap_208_aug_1295.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,072 [INFO] ✅ bad_tap_79_aug_527.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,073 [INFO] ✅ bad_tap_81_aug_324.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,074 [INFO] ✅ good_tap_16_aug_1201.npy → True: good, Predicted: good
+2025-08-04 13:53:14,074 [INFO] ✅ bad_tap_123_aug_1075.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,075 [INFO] ✅ good_tap_39_aug_953.npy → True: good, Predicted: good
+2025-08-04 13:53:14,076 [INFO] ✅ bad_tap_121_aug_968.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,077 [INFO] ✅ good_tap_98_aug_1438.npy → True: good, Predicted: good
+2025-08-04 13:53:14,077 [INFO] ✅ good_tap_212_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,078 [INFO] ✅ bad_tap_211_aug_596.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,079 [INFO] ✅ good_tap_100_aug_1709.npy → True: good, Predicted: good
+2025-08-04 13:53:14,079 [INFO] ✅ bad_tap_17_aug_1012.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,080 [INFO] ✅ good_tap_94_aug_418.npy → True: good, Predicted: good
+2025-08-04 13:53:14,080 [INFO] ✅ bad_tap_156_aug_1269.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,081 [INFO] ✅ bad_tap_62_aug_1409.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,083 [INFO] ✅ bad_tap_143_aug_1334.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,084 [INFO] ✅ good_tap_152_aug_474.npy → True: good, Predicted: good
+2025-08-04 13:53:14,085 [INFO] ✅ bad_tap_152_aug_1707.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,086 [INFO] ✅ good_tap_31_aug_524.npy → True: good, Predicted: good
+2025-08-04 13:53:14,086 [INFO] ✅ good_tap_61_aug_1602.npy → True: good, Predicted: good
+2025-08-04 13:53:14,087 [INFO] ✅ good_tap_34_aug_870.npy → True: good, Predicted: good
+2025-08-04 13:53:14,090 [INFO] ✅ good_tap_91_aug_81.npy → True: good, Predicted: good
+2025-08-04 13:53:14,091 [INFO] ✅ good_tap_27_aug_623.npy → True: good, Predicted: good
+2025-08-04 13:53:14,093 [INFO] ✅ bad_tap_218_aug_1688.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,093 [INFO] ✅ bad_tap_119_aug_1216.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,094 [INFO] ✅ good_tap_140_aug_726.npy → True: good, Predicted: good
+2025-08-04 13:53:14,095 [INFO] ✅ bad_tap_182_aug_1375.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,096 [INFO] ✅ bad_tap_196_aug_1367.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,097 [INFO] ✅ good_tap_189_aug_1245.npy → True: good, Predicted: good
+2025-08-04 13:53:14,098 [INFO] ✅ bad_tap_206_aug_429.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,098 [INFO] ✅ bad_tap_80_aug_189.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,099 [INFO] ✅ bad_tap_129_aug_708.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,100 [INFO] ✅ bad_tap_76_aug_1395.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,100 [INFO] ✅ bad_tap_41_aug_144.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,101 [INFO] ✅ bad_tap_53_aug_461.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,102 [INFO] ✅ bad_tap_212_aug_422.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,103 [INFO] ✅ good_tap_136_aug_332.npy → True: good, Predicted: good
+2025-08-04 13:53:14,103 [INFO] ✅ bad_tap_167_aug_620.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,104 [INFO] ✅ good_tap_149_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,105 [INFO] ✅ good_tap_135_aug_426.npy → True: good, Predicted: good
+2025-08-04 13:53:14,105 [INFO] ✅ bad_tap_166_aug_539.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,106 [INFO] ✅ bad_tap_203_aug_264.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,106 [INFO] ✅ bad_tap_193_aug_1497.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,107 [INFO] ✅ bad_tap_172_aug_557.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,109 [INFO] ✅ bad_tap_24_aug_863.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,110 [INFO] ✅ good_tap_126_aug_120.npy → True: good, Predicted: good
+2025-08-04 13:53:14,110 [INFO] ✅ good_tap_80_aug_413.npy → True: good, Predicted: good
+2025-08-04 13:53:14,111 [INFO] ✅ good_tap_194_aug_808.npy → True: good, Predicted: good
+2025-08-04 13:53:14,111 [INFO] ✅ bad_tap_87_aug_650.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,112 [INFO] ✅ good_tap_135_aug_424.npy → True: good, Predicted: good
+2025-08-04 13:53:14,113 [INFO] ✅ good_tap_209_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,114 [INFO] ✅ bad_tap_112_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,114 [INFO] ✅ bad_tap_124_aug_1173.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,115 [INFO] ✅ good_tap_80_aug_412.npy → True: good, Predicted: good
+2025-08-04 13:53:14,115 [INFO] ✅ good_tap_126_aug_121.npy → True: good, Predicted: good
+2025-08-04 13:53:14,116 [INFO] ✅ bad_tap_212_aug_420.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,117 [INFO] ✅ bad_tap_24_aug_862.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,119 [INFO] ✅ good_tap_83_aug_313.npy → True: good, Predicted: good
+2025-08-04 13:53:14,119 [INFO] ✅ good_tap_92_aug_197.npy → True: good, Predicted: good
+2025-08-04 13:53:14,120 [INFO] ✅ good_tap_186_aug_585.npy → True: good, Predicted: good
+2025-08-04 13:53:14,120 [INFO] ✅ good_tap_186_aug_591.npy → True: good, Predicted: good
+2025-08-04 13:53:14,121 [INFO] ✅ bad_tap_155_aug_1389.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,122 [INFO] ✅ good_tap_25_aug_515.npy → True: good, Predicted: good
+2025-08-04 13:53:14,122 [INFO] ✅ bad_tap_68_aug_56.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,123 [INFO] ✅ good_tap_49_aug_1589.npy → True: good, Predicted: good
+2025-08-04 13:53:14,123 [INFO] ✅ good_tap_208_aug_874.npy → True: good, Predicted: good
+2025-08-04 13:53:14,125 [INFO] ✅ good_tap_177_aug_1342.npy → True: good, Predicted: good
+2025-08-04 13:53:14,126 [INFO] ✅ bad_tap_44_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,126 [INFO] ✅ bad_tap_165_aug_376.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,127 [INFO] ✅ good_tap_174_aug_1216.npy → True: good, Predicted: good
+2025-08-04 13:53:14,128 [INFO] ✅ good_tap_112_aug_1541.npy → True: good, Predicted: good
+2025-08-04 13:53:14,128 [INFO] ✅ bad_tap_5_aug_110.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,129 [INFO] ✅ bad_tap_5_aug_106.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,130 [INFO] ✅ good_tap_212_aug_1079.npy → True: good, Predicted: good
+2025-08-04 13:53:14,131 [INFO] ✅ good_tap_12_aug_1080.npy → True: good, Predicted: good
+2025-08-04 13:53:14,131 [INFO] ✅ bad_tap_72_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,132 [INFO] ✅ bad_tap_90_aug_488.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,133 [INFO] ✅ bad_tap_71_aug_1718.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,134 [INFO] ✅ bad_tap_111_aug_914.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,134 [INFO] ✅ bad_tap_113_aug_869.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,135 [INFO] ✅ bad_tap_91_aug_342.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,135 [INFO] ✅ bad_tap_167_aug_618.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,136 [INFO] ✅ good_tap_196_aug_796.npy → True: good, Predicted: good
+2025-08-04 13:53:14,137 [INFO] ✅ bad_tap_106_aug_842.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,138 [INFO] ✅ good_tap_20_aug_856.npy → True: good, Predicted: good
+2025-08-04 13:53:14,138 [INFO] ✅ good_tap_5_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,139 [INFO] ✅ good_tap_85_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,140 [INFO] ✅ good_tap_112_aug_1542.npy → True: good, Predicted: good
+2025-08-04 13:53:14,142 [INFO] ✅ good_tap_102_aug_1558.npy → True: good, Predicted: good
+2025-08-04 13:53:14,143 [INFO] ✅ good_tap_193_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,144 [INFO] ✅ good_tap_19_aug_529.npy → True: good, Predicted: good
+2025-08-04 13:53:14,144 [INFO] ✅ good_tap_83_aug_318.npy → True: good, Predicted: good
+2025-08-04 13:53:14,237 [INFO] ✅ bad_tap_102_aug_777.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,239 [INFO] ✅ good_tap_92_aug_198.npy → True: good, Predicted: good
+2025-08-04 13:53:14,240 [INFO] ✅ bad_tap_165_aug_378.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,241 [INFO] ✅ good_tap_64_aug_1514.npy → True: good, Predicted: good
+2025-08-04 13:53:14,241 [INFO] ✅ bad_tap_101_aug_738.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,242 [INFO] ✅ bad_tap_90_aug_490.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,243 [INFO] ✅ bad_tap_111_aug_918.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,244 [INFO] ✅ bad_tap_67_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,245 [INFO] ✅ good_tap_184_aug_569.npy → True: good, Predicted: good
+2025-08-04 13:53:14,245 [INFO] ✅ good_tap_119_aug_18.npy → True: good, Predicted: good
+2025-08-04 13:53:14,246 [INFO] ❌ bad_tap_151_aug_1577.npy → True: bad, Predicted: good
+2025-08-04 13:53:14,247 [INFO] ✅ bad_tap_5_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,248 [INFO] ✅ good_tap_116_aug_1544.npy → True: good, Predicted: good
+2025-08-04 13:53:14,248 [INFO] ✅ good_tap_8_aug_484.npy → True: good, Predicted: good
+2025-08-04 13:53:14,249 [INFO] ✅ bad_tap_95_aug_333.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,250 [INFO] ✅ good_tap_13_aug_1088.npy → True: good, Predicted: good
+2025-08-04 13:53:14,250 [INFO] ✅ good_tap_139_aug_1446.npy → True: good, Predicted: good
+2025-08-04 13:53:14,251 [INFO] ✅ good_tap_23_aug_755.npy → True: good, Predicted: good
+2025-08-04 13:53:14,251 [INFO] ✅ good_tap_62_aug_1677.npy → True: good, Predicted: good
+2025-08-04 13:53:14,252 [INFO] ✅ bad_tap_207_aug_407.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,253 [INFO] ✅ good_tap_119_aug_23.npy → True: good, Predicted: good
+2025-08-04 13:53:14,253 [INFO] ✅ good_tap_31_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,254 [INFO] ✅ good_tap_137_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,255 [INFO] ✅ good_tap_47_aug_48.npy → True: good, Predicted: good
+2025-08-04 13:53:14,255 [INFO] ✅ bad_tap_165_aug_381.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,256 [INFO] ✅ good_tap_137_aug_227.npy → True: good, Predicted: good
+2025-08-04 13:53:14,257 [INFO] ✅ bad_tap_216_aug_254.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,257 [INFO] ✅ bad_tap_1_aug_563.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,258 [INFO] ✅ good_tap_168_aug_704.npy → True: good, Predicted: good
+2025-08-04 13:53:14,259 [INFO] ✅ good_tap_185_aug_449.npy → True: good, Predicted: good
+2025-08-04 13:53:14,259 [INFO] ✅ good_tap_207_aug_1107.npy → True: good, Predicted: good
+2025-08-04 13:53:14,260 [INFO] ✅ bad_tap_207_aug_406.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,260 [INFO] ✅ bad_tap_158_aug_479.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,261 [INFO] ✅ bad_tap_121_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,262 [INFO] ✅ good_tap_147_aug_556.npy → True: good, Predicted: good
+2025-08-04 13:53:14,262 [INFO] ✅ good_tap_137_aug_230.npy → True: good, Predicted: good
+2025-08-04 13:53:14,263 [INFO] ✅ bad_tap_214_aug_98.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,263 [INFO] ✅ bad_tap_35_aug_804.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,264 [INFO] ✅ good_tap_169_aug_782.npy → True: good, Predicted: good
+2025-08-04 13:53:14,264 [INFO] ✅ bad_tap_46_aug_390.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,265 [INFO] ✅ bad_tap_41_aug_149.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,265 [INFO] ✅ good_tap_2_aug_1042.npy → True: good, Predicted: good
+2025-08-04 13:53:14,266 [INFO] ✅ good_tap_34_aug_868.npy → True: good, Predicted: good
+2025-08-04 13:53:14,266 [INFO] ✅ good_tap_99_aug_1395.npy → True: good, Predicted: good
+2025-08-04 13:53:14,267 [INFO] ✅ good_tap_73_aug_1425.npy → True: good, Predicted: good
+2025-08-04 13:53:14,268 [INFO] ✅ bad_tap_158_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,268 [INFO] ❌ bad_tap_122_aug_1054.npy → True: bad, Predicted: good
+2025-08-04 13:53:14,269 [INFO] ✅ bad_tap_86_aug_508.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,269 [INFO] ✅ good_tap_99_aug_1394.npy → True: good, Predicted: good
+2025-08-04 13:53:14,270 [INFO] ✅ bad_tap_105_aug_902.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,271 [INFO] ✅ bad_tap_170_aug_468.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,271 [INFO] ✅ good_tap_2_aug_1041.npy → True: good, Predicted: good
+2025-08-04 13:53:14,272 [INFO] ✅ bad_tap_51_aug_549.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,272 [INFO] ✅ good_tap_98_aug_1434.npy → True: good, Predicted: good
+2025-08-04 13:53:14,273 [INFO] ✅ good_tap_68_aug_283.npy → True: good, Predicted: good
+2025-08-04 13:53:14,273 [INFO] ✅ bad_tap_16_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,274 [INFO] ✅ bad_tap_156_aug_1265.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,275 [INFO] ✅ good_tap_41_aug_258.npy → True: good, Predicted: good
+2025-08-04 13:53:14,275 [INFO] ✅ good_tap_143_aug_820.npy → True: good, Predicted: good
+2025-08-04 13:53:14,275 [INFO] ✅ bad_tap_137_aug_1081.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,276 [INFO] ✅ bad_tap_201_aug_82.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,276 [INFO] ✅ good_tap_191_aug_457.npy → True: good, Predicted: good
+2025-08-04 13:53:14,277 [INFO] ✅ good_tap_167_aug_924.npy → True: good, Predicted: good
+2025-08-04 13:53:14,278 [INFO] ✅ bad_tap_43_aug_218.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,278 [INFO] ✅ good_tap_114_aug_1698.npy → True: good, Predicted: good
+2025-08-04 13:53:14,279 [INFO] ✅ good_tap_107_aug_1477.npy → True: good, Predicted: good
+2025-08-04 13:53:14,279 [INFO] ✅ good_tap_194_org.npy → True: good, Predicted: good
+2025-08-04 13:53:14,280 [INFO] ✅ bad_tap_37_aug_688.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,281 [INFO] ✅ good_tap_97_aug_305.npy → True: good, Predicted: good
+2025-08-04 13:53:14,281 [INFO] ✅ good_tap_142_aug_889.npy → True: good, Predicted: good
+2025-08-04 13:53:14,282 [INFO] ✅ good_tap_75_aug_1593.npy → True: good, Predicted: good
+2025-08-04 13:53:14,282 [INFO] ❌ bad_tap_122_aug_1053.npy → True: bad, Predicted: good
+2025-08-04 13:53:14,283 [INFO] ✅ bad_tap_119_aug_1221.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,283 [INFO] ✅ bad_tap_121_aug_974.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,284 [INFO] ✅ bad_tap_104_aug_956.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,284 [INFO] ✅ good_tap_113_aug_1470.npy → True: good, Predicted: good
+2025-08-04 13:53:14,285 [INFO] ✅ bad_tap_168_aug_1424.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,285 [INFO] ✅ bad_tap_67_aug_1547.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,286 [INFO] ✅ bad_tap_75_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,287 [INFO] ✅ bad_tap_138_aug_966.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,287 [INFO] ✅ good_tap_2_aug_1047.npy → True: good, Predicted: good
+2025-08-04 13:53:14,289 [INFO] ❌ bad_tap_168_aug_1426.npy → True: bad, Predicted: good
+2025-08-04 13:53:14,290 [INFO] ✅ good_tap_41_aug_263.npy → True: good, Predicted: good
+2025-08-04 13:53:14,291 [INFO] ✅ good_tap_211_aug_950.npy → True: good, Predicted: good
+2025-08-04 13:53:14,292 [INFO] ✅ bad_tap_21_org.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,294 [INFO] ✅ bad_tap_116_aug_797.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,295 [INFO] ✅ good_tap_66_aug_1408.npy → True: good, Predicted: good
+2025-08-04 13:53:14,297 [INFO] ✅ good_tap_203_aug_1190.npy → True: good, Predicted: good
+2025-08-04 13:53:14,298 [INFO] ✅ bad_tap_201_aug_84.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,299 [INFO] ✅ good_tap_10_aug_983.npy → True: good, Predicted: good
+2025-08-04 13:53:14,300 [INFO] ✅ bad_tap_194_aug_1349.npy → True: bad, Predicted: bad
+2025-08-04 13:53:14,301 [INFO] ✅ Evaluation complete.
+2025-08-04 13:53:14,318 [INFO] 
+🧮 Generating confusion matrix @ [2025-08-04 13:53:14]
+2025-08-04 13:53:14,320 [INFO] 🔢 Confusion Matrix (Labels: 0=bad, 1=good):
 [[96, 4], [0, 100]]
-2025-08-04 13:01:06,690 [INFO] 📸 Confusion matrix plot saved to: ../../resources/plot/global/test-data/v1.0.0/IID/confusion_matrix.png
-2025-08-04 13:01:06,691 [INFO] ✅ Confusion matrix plotting completed.
+2025-08-04 13:53:14,321 [INFO]   - True Negatives (TN): 96
+2025-08-04 13:53:14,322 [INFO]   - False Positives (FP): 4
+2025-08-04 13:53:14,323 [INFO]   - False Negatives (FN): 0
+2025-08-04 13:53:14,323 [INFO]   - True Positives (TP): 100
+2025-08-04 13:53:14,708 [INFO] 📸 Confusion matrix plot saved to: ../../resources/plot/global/test-data/v1.0.0/IID/confusion_matrix.png
+2025-08-04 13:53:14,709 [INFO] ✅ Confusion matrix plotting completed.
 
-2025-08-04 13:01:06,700 [INFO] 🚀 Generating ROC AUC Curve from test set predictions...
-2025-08-04 13:01:06,761 [INFO] 
+2025-08-04 13:53:14,722 [INFO] 🚀 Generating ROC AUC Curve from test set predictions...
+2025-08-04 13:53:14,787 [INFO] 
 📈 ROC Curve Evaluation Started...
-2025-08-04 13:01:06,763 [INFO]   • AUC Score: 0.9994
-2025-08-04 13:01:06,764 [INFO]   • Plot will be saved to: ../../resources/plot/global/test-data/v1.0.0/IID/roc_auc.png
-2025-08-04 13:01:06,861 [INFO] ✅ ROC curve plot saved successfully.
-2025-08-04 13:01:06,953 [INFO] ✅ ROC Curve Evaluation Completed.
+2025-08-04 13:53:14,789 [INFO]   • AUC Score: 0.9994
+2025-08-04 13:53:14,790 [INFO]   • Plot will be saved to: ../../resources/plot/global/test-data/v1.0.0/IID/roc_auc.png
+2025-08-04 13:53:14,790 [INFO]   • ROC Points (FPR, TPR, Threshold):
+2025-08-04 13:53:14,791 [INFO]      - Threshold: inf, FPR: 0.0000, TPR: 0.0000
+2025-08-04 13:53:14,792 [INFO]      - Threshold: 0.8162, FPR: 0.0000, TPR: 0.0100
+2025-08-04 13:53:14,793 [INFO]      - Threshold: 0.8135, FPR: 0.0000, TPR: 0.0300
+2025-08-04 13:53:14,793 [INFO]      - Threshold: 0.8092, FPR: 0.0000, TPR: 0.0500
+2025-08-04 13:53:14,794 [INFO]      - Threshold: 0.5502, FPR: 0.0000, TPR: 0.9800
+2025-08-04 13:53:14,795 [INFO]      - Threshold: 0.5364, FPR: 0.0200, TPR: 0.9800
+2025-08-04 13:53:14,796 [INFO]      - Threshold: 0.5337, FPR: 0.0200, TPR: 0.9900
+2025-08-04 13:53:14,796 [INFO]      - Threshold: 0.5233, FPR: 0.0400, TPR: 0.9900
+2025-08-04 13:53:14,797 [INFO]      - Threshold: 0.5151, FPR: 0.0400, TPR: 1.0000
+2025-08-04 13:53:14,798 [INFO]      - Threshold: 0.3288, FPR: 0.7800, TPR: 1.0000
+2025-08-04 13:53:14,799 [INFO]      - Threshold: 0.3252, FPR: 0.8200, TPR: 1.0000
+2025-08-04 13:53:14,800 [INFO]      - Threshold: 0.2880, FPR: 1.0000, TPR: 1.0000
+2025-08-04 13:53:14,910 [INFO] ✅ ROC curve plot saved successfully.
+2025-08-04 13:53:14,995 [INFO] ✅ ROC Curve Evaluation Completed.
 
-2025-08-04 13:01:06,964 [INFO] 🚀 Generating Precision-Recall Curve from test set predictions...
-2025-08-04 13:01:06,965 [INFO] 
+2025-08-04 13:53:15,005 [INFO] 🚀 Generating Precision-Recall Curve from test set predictions...
+2025-08-04 13:53:15,006 [INFO] 
 📊 Precision-Recall Evaluation Started...
-2025-08-04 13:01:06,968 [INFO]   • Average Precision: 0.8480
-2025-08-04 13:01:06,969 [INFO]   • Average Recall: 0.7495
-2025-08-04 13:01:06,971 [INFO]   • Saving Precision-Recall plot to: ../../resources/plot/global/test-data/v1.0.0/IID/precision_recall.png
-2025-08-04 13:01:07,070 [INFO] ✅ Precision-Recall plot saved successfully.
-2025-08-04 13:01:07,149 [INFO] ✅ Precision-Recall Evaluation Completed.
+2025-08-04 13:53:15,010 [INFO]   • Average Precision: 0.8480
+2025-08-04 13:53:15,011 [INFO]   • Average Recall: 0.7495
+2025-08-04 13:53:15,011 [INFO] 📌 Precision values:
+2025-08-04 13:53:15,013 [INFO] [0.5   , 0.5025, 0.5051, 0.5076, 0.5102, 0.5128, 0.5155, 0.5181, 0.5208, 0.5236, 0.5263, 0.5291, 0.5319, 0.5348, 0.5376,
+ 0.5405, 0.5435, 0.5464, 0.5495, 0.5556, 0.5618, 0.565 , 0.5682, 0.5714, 0.5747, 0.578 , 0.5814, 0.5848, 0.5882, 0.5917,
+ 0.5952, 0.5988, 0.6024, 0.6061, 0.6098, 0.6135, 0.6173, 0.6211, 0.625 , 0.6289, 0.6329, 0.6369, 0.641 , 0.6452, 0.6494,
+ 0.6536, 0.6579, 0.6623, 0.6667, 0.6711, 0.6757, 0.6803, 0.6849, 0.6897, 0.6944, 0.6993, 0.7042, 0.7092, 0.7143, 0.7194,
+ 0.7246, 0.7299, 0.7353, 0.7407, 0.7463, 0.7519, 0.7576, 0.7634, 0.7692, 0.7752, 0.7812, 0.7874, 0.7937, 0.8   , 0.8065,
+ 0.813 , 0.8197, 0.8264, 0.8333, 0.8403, 0.8475, 0.8547, 0.8621, 0.8696, 0.8772, 0.885 , 0.8929, 0.9009, 0.9091, 0.9174,
+ 0.9259, 0.9346, 0.9434, 0.9524, 0.9615, 0.9612, 0.9706, 0.9802, 0.98  , 0.9899, 1.    , 1.    , 1.    , 1.    , 1.    ,
+ 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    ,
+ 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    ,
+ 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    ,
+ 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    ,
+ 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    ,
+ 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    , 1.    ,
+ 1.    , 1.    , 1.    ]
+2025-08-04 13:53:15,013 [INFO] 📌 Recall values:
+2025-08-04 13:53:15,015 [INFO] [1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  ,
+ 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  ,
+ 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  ,
+ 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  ,
+ 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 1.  , 0.99, 0.99, 0.99, 0.98, 0.98,
+ 0.98, 0.97, 0.96, 0.95, 0.94, 0.93, 0.92, 0.91, 0.9 , 0.89, 0.88, 0.87, 0.86, 0.85, 0.84, 0.83, 0.82, 0.81, 0.8 , 0.79,
+ 0.78, 0.77, 0.76, 0.75, 0.74, 0.73, 0.72, 0.71, 0.7 , 0.69, 0.68, 0.67, 0.66, 0.65, 0.64, 0.63, 0.62, 0.61, 0.6 , 0.59,
+ 0.58, 0.57, 0.56, 0.55, 0.54, 0.53, 0.52, 0.51, 0.5 , 0.49, 0.48, 0.47, 0.46, 0.45, 0.44, 0.43, 0.42, 0.41, 0.4 , 0.39,
+ 0.38, 0.37, 0.36, 0.35, 0.34, 0.33, 0.32, 0.31, 0.3 , 0.29, 0.28, 0.27, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.2 , 0.19,
+ 0.18, 0.17, 0.16, 0.15, 0.14, 0.13, 0.12, 0.11, 0.1 , 0.09, 0.08, 0.07, 0.06, 0.05, 0.03, 0.02, 0.01, 0.  ]
+2025-08-04 13:53:15,015 [INFO]   • Saving Precision-Recall plot to: ../../resources/plot/global/test-data/v1.0.0/IID/precision_recall.png
+2025-08-04 13:53:15,114 [INFO] ✅ Precision-Recall plot saved successfully.
+2025-08-04 13:53:15,230 [INFO] ✅ Precision-Recall Evaluation Completed.
 
-2025-08-04 13:01:07,158 [INFO] 🚀 Generating Prediction Histogram from test set predictions...
-2025-08-04 13:01:07,218 [INFO] 
+2025-08-04 13:53:15,247 [INFO] 🚀 Generating Prediction Histogram from test set predictions...
+2025-08-04 13:53:15,316 [INFO] 
 📊 Prediction Score Distribution Plot Started...
-2025-08-04 13:01:07,406 [INFO] ✅ Histogram saved to: ../../resources/plot/global/test-data/v1.0.0/IID/prediction_histogram.png
-2025-08-04 13:01:07,512 [INFO] ✅ Prediction Score Distribution Plot Completed.
+2025-08-04 13:53:15,317 [INFO] 🔴 Predicted Probabilities for 'Bad' (0) samples (100):
+2025-08-04 13:53:15,318 [INFO] [0.3252, 0.4474, 0.3373, 0.3633, 0.3015, 0.3549, 0.4196, 0.3804, 0.3197, 0.3252, 0.3991, 0.3515, 0.4083, 0.3521, 0.3531,
+ 0.3686, 0.4848, 0.3462, 0.4119, 0.4182, 0.3748, 0.3141, 0.3734, 0.3398, 0.4035, 0.3541, 0.351 , 0.3965, 0.3136, 0.3215,
+ 0.3535, 0.3186, 0.3931, 0.4687, 0.3096, 0.3934, 0.3786, 0.357 , 0.3619, 0.3536, 0.3853, 0.3159, 0.4282, 0.3374, 0.3866,
+ 0.3493, 0.4397, 0.3702, 0.397 , 0.3481, 0.4561, 0.3098, 0.3978, 0.3681, 0.4473, 0.4568, 0.37  , 0.4002, 0.396 , 0.3677,
+ 0.3652, 0.5364, 0.3493, 0.3228, 0.3166, 0.3363, 0.3194, 0.3567, 0.3209, 0.3273, 0.3641, 0.4596, 0.3622, 0.4034, 0.3434,
+ 0.3273, 0.5233, 0.3903, 0.3288, 0.4082, 0.3085, 0.288 , 0.4913, 0.3583, 0.3484, 0.3835, 0.3853, 0.5253, 0.3169, 0.3541,
+ 0.4181, 0.4035, 0.373 , 0.3094, 0.3537, 0.5458, 0.3452, 0.3075, 0.3496, 0.3548]
+2025-08-04 13:53:15,320 [INFO] 🟢 Predicted Probabilities for 'Good' (1) samples (100):
+2025-08-04 13:53:15,321 [INFO] [0.7903, 0.7723, 0.7808, 0.7947, 0.5337, 0.705 , 0.6612, 0.7169, 0.6703, 0.6101, 0.6648, 0.7129, 0.8092, 0.7766, 0.8135,
+ 0.761 , 0.7416, 0.7026, 0.7829, 0.6241, 0.7723, 0.7846, 0.7631, 0.6956, 0.8162, 0.6788, 0.579 , 0.7758, 0.6666, 0.6212,
+ 0.7925, 0.7385, 0.6248, 0.6197, 0.7764, 0.6807, 0.8045, 0.6588, 0.7565, 0.6837, 0.7944, 0.6722, 0.8068, 0.8092, 0.6424,
+ 0.7016, 0.5151, 0.6539, 0.7522, 0.8067, 0.7535, 0.7596, 0.5705, 0.7184, 0.7762, 0.7205, 0.5993, 0.7666, 0.6182, 0.6989,
+ 0.621 , 0.7227, 0.7108, 0.7998, 0.7965, 0.7654, 0.8029, 0.5502, 0.7705, 0.6231, 0.6256, 0.7439, 0.7158, 0.8028, 0.6504,
+ 0.6948, 0.6941, 0.7134, 0.6381, 0.6773, 0.6512, 0.6621, 0.741 , 0.7469, 0.7641, 0.6017, 0.7321, 0.6997, 0.7903, 0.7777,
+ 0.6613, 0.6635, 0.5943, 0.8144, 0.7067, 0.7687, 0.7945, 0.6983, 0.8061, 0.702 ]
+2025-08-04 13:53:15,515 [INFO] ✅ Histogram saved to: ../../resources/plot/global/test-data/v1.0.0/IID/prediction_histogram.png
+2025-08-04 13:53:15,624 [INFO] ✅ Prediction Score Distribution Plot Completed.
 
-2025-08-04 13:01:07,521 [INFO] 🚀 Generating Per-Class Accuracy Plot...
-2025-08-04 13:01:07,522 [INFO] 
+2025-08-04 13:53:15,636 [INFO] 🚀 Generating Per-Class Accuracy Plot...
+2025-08-04 13:53:15,637 [INFO] 
 📊 Per-Class Accuracy Evaluation Started...
-2025-08-04 13:01:07,523 [INFO]   • bad Accuracy: 0.9600
-2025-08-04 13:01:07,524 [INFO]   • good Accuracy: 1.0000
-2025-08-04 13:01:07,626 [INFO] 📁 Plot saved to: ../../resources/plot/global/test-data/v1.0.0/IID/per_class_accuracy.png
-2025-08-04 13:01:07,688 [INFO] ✅ Per-Class Accuracy Evaluation Completed.
+2025-08-04 13:53:15,638 [INFO]   • bad Accuracy: 0.9600
+2025-08-04 13:53:15,639 [INFO]   • good Accuracy: 1.0000
+2025-08-04 13:53:15,810 [INFO] 📁 Plot saved to: ../../resources/plot/global/test-data/v1.0.0/IID/per_class_accuracy.png
+2025-08-04 13:53:15,883 [INFO] ✅ Per-Class Accuracy Evaluation Completed.
 
-2025-08-04 13:01:07,697 [INFO] 🚀 Plotting F1 Score vs Threshold...
-2025-08-04 13:01:07,698 [INFO] 
+2025-08-04 13:53:15,896 [INFO] 🚀 Plotting F1 Score vs Threshold...
+2025-08-04 13:53:15,897 [INFO] 
 📊 F1 Score vs Threshold Plot Started...
-2025-08-04 13:01:07,839 [INFO]   • Best F1 Score: 0.9899 at Threshold = 0.55
-2025-08-04 13:01:07,970 [INFO] ✅ F1 Threshold Plot saved to: ../../resources/plot/global/test-data/v1.0.0/IID/f1_threshold.png
-2025-08-04 13:01:08,069 [INFO] ✅ F1 Score vs Threshold Plot Completed.
+2025-08-04 13:53:16,036 [INFO] 📈 Threshold-wise F1 Scores:
+2025-08-04 13:53:16,037 [INFO]   • Threshold = 0.00 → F1 Score = 0.6667
+2025-08-04 13:53:16,037 [INFO]   • Threshold = 0.01 → F1 Score = 0.6667
+2025-08-04 13:53:16,038 [INFO]   • Threshold = 0.02 → F1 Score = 0.6667
+2025-08-04 13:53:16,039 [INFO]   • Threshold = 0.03 → F1 Score = 0.6667
+2025-08-04 13:53:16,040 [INFO]   • Threshold = 0.04 → F1 Score = 0.6667
+2025-08-04 13:53:16,040 [INFO]   • Threshold = 0.05 → F1 Score = 0.6667
+2025-08-04 13:53:16,041 [INFO]   • Threshold = 0.06 → F1 Score = 0.6667
+2025-08-04 13:53:16,042 [INFO]   • Threshold = 0.07 → F1 Score = 0.6667
+2025-08-04 13:53:16,043 [INFO]   • Threshold = 0.08 → F1 Score = 0.6667
+2025-08-04 13:53:16,043 [INFO]   • Threshold = 0.09 → F1 Score = 0.6667
+2025-08-04 13:53:16,044 [INFO]   • Threshold = 0.10 → F1 Score = 0.6667
+2025-08-04 13:53:16,044 [INFO]   • Threshold = 0.11 → F1 Score = 0.6667
+2025-08-04 13:53:16,045 [INFO]   • Threshold = 0.12 → F1 Score = 0.6667
+2025-08-04 13:53:16,045 [INFO]   • Threshold = 0.13 → F1 Score = 0.6667
+2025-08-04 13:53:16,046 [INFO]   • Threshold = 0.14 → F1 Score = 0.6667
+2025-08-04 13:53:16,046 [INFO]   • Threshold = 0.15 → F1 Score = 0.6667
+2025-08-04 13:53:16,047 [INFO]   • Threshold = 0.16 → F1 Score = 0.6667
+2025-08-04 13:53:16,047 [INFO]   • Threshold = 0.17 → F1 Score = 0.6667
+2025-08-04 13:53:16,048 [INFO]   • Threshold = 0.18 → F1 Score = 0.6667
+2025-08-04 13:53:16,049 [INFO]   • Threshold = 0.19 → F1 Score = 0.6667
+2025-08-04 13:53:16,049 [INFO]   • Threshold = 0.20 → F1 Score = 0.6667
+2025-08-04 13:53:16,050 [INFO]   • Threshold = 0.21 → F1 Score = 0.6667
+2025-08-04 13:53:16,050 [INFO]   • Threshold = 0.22 → F1 Score = 0.6667
+2025-08-04 13:53:16,051 [INFO]   • Threshold = 0.23 → F1 Score = 0.6667
+2025-08-04 13:53:16,051 [INFO]   • Threshold = 0.24 → F1 Score = 0.6667
+2025-08-04 13:53:16,052 [INFO]   • Threshold = 0.25 → F1 Score = 0.6667
+2025-08-04 13:53:16,061 [INFO]   • Threshold = 0.26 → F1 Score = 0.6667
+2025-08-04 13:53:16,062 [INFO]   • Threshold = 0.27 → F1 Score = 0.6667
+2025-08-04 13:53:16,064 [INFO]   • Threshold = 0.28 → F1 Score = 0.6667
+2025-08-04 13:53:16,065 [INFO]   • Threshold = 0.29 → F1 Score = 0.6689
+2025-08-04 13:53:16,066 [INFO]   • Threshold = 0.30 → F1 Score = 0.6689
+2025-08-04 13:53:16,066 [INFO]   • Threshold = 0.31 → F1 Score = 0.6826
+2025-08-04 13:53:16,067 [INFO]   • Threshold = 0.32 → F1 Score = 0.7018
+2025-08-04 13:53:16,068 [INFO]   • Threshold = 0.33 → F1 Score = 0.7220
+2025-08-04 13:53:16,068 [INFO]   • Threshold = 0.34 → F1 Score = 0.7326
+2025-08-04 13:53:16,069 [INFO]   • Threshold = 0.35 → F1 Score = 0.7547
+2025-08-04 13:53:16,070 [INFO]   • Threshold = 0.36 → F1 Score = 0.7968
+2025-08-04 13:53:16,070 [INFO]   • Threshold = 0.37 → F1 Score = 0.8264
+2025-08-04 13:53:16,071 [INFO]   • Threshold = 0.38 → F1 Score = 0.8439
+2025-08-04 13:53:16,071 [INFO]   • Threshold = 0.39 → F1 Score = 0.8621
+2025-08-04 13:53:16,072 [INFO]   • Threshold = 0.40 → F1 Score = 0.8929
+2025-08-04 13:53:16,072 [INFO]   • Threshold = 0.41 → F1 Score = 0.9174
+2025-08-04 13:53:16,073 [INFO]   • Threshold = 0.42 → F1 Score = 0.9346
+2025-08-04 13:53:16,074 [INFO]   • Threshold = 0.43 → F1 Score = 0.9390
+2025-08-04 13:53:16,074 [INFO]   • Threshold = 0.44 → F1 Score = 0.9434
+2025-08-04 13:53:16,076 [INFO]   • Threshold = 0.45 → F1 Score = 0.9524
+2025-08-04 13:53:16,077 [INFO]   • Threshold = 0.46 → F1 Score = 0.9662
+2025-08-04 13:53:16,078 [INFO]   • Threshold = 0.47 → F1 Score = 0.9709
+2025-08-04 13:53:16,079 [INFO]   • Threshold = 0.48 → F1 Score = 0.9709
+2025-08-04 13:53:16,080 [INFO]   • Threshold = 0.49 → F1 Score = 0.9756
+2025-08-04 13:53:16,080 [INFO]   • Threshold = 0.50 → F1 Score = 0.9804
+2025-08-04 13:53:16,081 [INFO]   • Threshold = 0.51 → F1 Score = 0.9804
+2025-08-04 13:53:16,081 [INFO]   • Threshold = 0.52 → F1 Score = 0.9754
+2025-08-04 13:53:16,082 [INFO]   • Threshold = 0.53 → F1 Score = 0.9851
+2025-08-04 13:53:16,082 [INFO]   • Threshold = 0.54 → F1 Score = 0.9849
+2025-08-04 13:53:16,083 [INFO]   • Threshold = 0.55 → F1 Score = 0.9899
+2025-08-04 13:53:16,083 [INFO]   • Threshold = 0.56 → F1 Score = 0.9848
+2025-08-04 13:53:16,084 [INFO]   • Threshold = 0.57 → F1 Score = 0.9848
+2025-08-04 13:53:16,084 [INFO]   • Threshold = 0.58 → F1 Score = 0.9744
+2025-08-04 13:53:16,085 [INFO]   • Threshold = 0.59 → F1 Score = 0.9744
+2025-08-04 13:53:16,086 [INFO]   • Threshold = 0.60 → F1 Score = 0.9637
+2025-08-04 13:53:16,086 [INFO]   • Threshold = 0.61 → F1 Score = 0.9583
+2025-08-04 13:53:16,087 [INFO]   • Threshold = 0.62 → F1 Score = 0.9418
+2025-08-04 13:53:16,087 [INFO]   • Threshold = 0.63 → F1 Score = 0.9071
+2025-08-04 13:53:16,088 [INFO]   • Threshold = 0.64 → F1 Score = 0.9011
+2025-08-04 13:53:16,088 [INFO]   • Threshold = 0.65 → F1 Score = 0.8950
+2025-08-04 13:53:16,089 [INFO]   • Threshold = 0.66 → F1 Score = 0.8701
+2025-08-04 13:53:16,089 [INFO]   • Threshold = 0.67 → F1 Score = 0.8304
+2025-08-04 13:53:16,090 [INFO]   • Threshold = 0.68 → F1 Score = 0.8024
+2025-08-04 13:53:16,090 [INFO]   • Threshold = 0.69 → F1 Score = 0.7879
+2025-08-04 13:53:16,090 [INFO]   • Threshold = 0.70 → F1 Score = 0.7421
+2025-08-04 13:53:16,091 [INFO]   • Threshold = 0.71 → F1 Score = 0.7013
+2025-08-04 13:53:16,092 [INFO]   • Threshold = 0.72 → F1 Score = 0.6486
+2025-08-04 13:53:16,093 [INFO]   • Threshold = 0.73 → F1 Score = 0.6301
+2025-08-04 13:53:16,094 [INFO]   • Threshold = 0.74 → F1 Score = 0.6111
+2025-08-04 13:53:16,094 [INFO]   • Threshold = 0.75 → F1 Score = 0.5714
+2025-08-04 13:53:16,095 [INFO]   • Threshold = 0.76 → F1 Score = 0.5294
+2025-08-04 13:53:16,095 [INFO]   • Threshold = 0.77 → F1 Score = 0.4615
+2025-08-04 13:53:16,095 [INFO]   • Threshold = 0.78 → F1 Score = 0.3607
+2025-08-04 13:53:16,096 [INFO]   • Threshold = 0.79 → F1 Score = 0.3193
+2025-08-04 13:53:16,096 [INFO]   • Threshold = 0.80 → F1 Score = 0.1982
+2025-08-04 13:53:16,097 [INFO]   • Threshold = 0.81 → F1 Score = 0.0583
+2025-08-04 13:53:16,097 [INFO]   • Threshold = 0.82 → F1 Score = 0.0000
+2025-08-04 13:53:16,098 [INFO]   • Threshold = 0.83 → F1 Score = 0.0000
+2025-08-04 13:53:16,098 [INFO]   • Threshold = 0.84 → F1 Score = 0.0000
+2025-08-04 13:53:16,099 [INFO]   • Threshold = 0.85 → F1 Score = 0.0000
+2025-08-04 13:53:16,099 [INFO]   • Threshold = 0.86 → F1 Score = 0.0000
+2025-08-04 13:53:16,100 [INFO]   • Threshold = 0.87 → F1 Score = 0.0000
+2025-08-04 13:53:16,101 [INFO]   • Threshold = 0.88 → F1 Score = 0.0000
+2025-08-04 13:53:16,101 [INFO]   • Threshold = 0.89 → F1 Score = 0.0000
+2025-08-04 13:53:16,102 [INFO]   • Threshold = 0.90 → F1 Score = 0.0000
+2025-08-04 13:53:16,102 [INFO]   • Threshold = 0.91 → F1 Score = 0.0000
+2025-08-04 13:53:16,103 [INFO]   • Threshold = 0.92 → F1 Score = 0.0000
+2025-08-04 13:53:16,104 [INFO]   • Threshold = 0.93 → F1 Score = 0.0000
+2025-08-04 13:53:16,105 [INFO]   • Threshold = 0.94 → F1 Score = 0.0000
+2025-08-04 13:53:16,106 [INFO]   • Threshold = 0.95 → F1 Score = 0.0000
+2025-08-04 13:53:16,106 [INFO]   • Threshold = 0.96 → F1 Score = 0.0000
+2025-08-04 13:53:16,107 [INFO]   • Threshold = 0.97 → F1 Score = 0.0000
+2025-08-04 13:53:16,107 [INFO]   • Threshold = 0.98 → F1 Score = 0.0000
+2025-08-04 13:53:16,107 [INFO]   • Threshold = 0.99 → F1 Score = 0.0000
+2025-08-04 13:53:16,108 [INFO]   • Threshold = 1.00 → F1 Score = 0.0000
+2025-08-04 13:53:16,109 [INFO] 
+🏆 Best F1 Score: 0.9899 at Threshold = 0.55
+2025-08-04 13:53:16,363 [INFO] ✅ F1 Threshold Plot saved to: ../../resources/plot/global/test-data/v1.0.0/IID/f1_threshold.png
+2025-08-04 13:53:16,455 [INFO] ✅ F1 Score vs Threshold Plot Completed.
 
-2025-08-04 13:01:08,116 [INFO] 
+2025-08-04 13:53:16,467 [INFO] 
 🧪 Splitting test set into train/val for F1 evaluation...
-2025-08-04 13:01:08,130 [INFO]   • X_train shape: (160, 4096), X_val shape: (40, 4096)
-2025-08-04 13:01:08,131 [INFO]   • y_train shape: (160,), y_val shape: (40,)
-2025-08-04 13:01:08,131 [INFO] ✅ Test split completed.
-2025-08-04 13:01:08,132 [INFO] 
+2025-08-04 13:53:16,472 [INFO]   • X_train shape: (160, 4096), X_val shape: (40, 4096)
+2025-08-04 13:53:16,472 [INFO]   • y_train shape: (160,), y_val shape: (40,)
+2025-08-04 13:53:16,473 [INFO] ✅ Test split completed.
+2025-08-04 13:53:16,474 [INFO] 
 🚀 Starting model training with F1 tracking...
-2025-08-04 13:01:08,841 [INFO] 📊 Epoch 1 — Validation F1 Score: 0.9744
-2025-08-04 13:01:08,976 [INFO] 📊 Epoch 2 — Validation F1 Score: 0.9756
-2025-08-04 13:01:09,115 [INFO] 📊 Epoch 3 — Validation F1 Score: 0.9756
-2025-08-04 13:01:09,251 [INFO] 📊 Epoch 4 — Validation F1 Score: 0.9744
-2025-08-04 13:01:09,391 [INFO] 📊 Epoch 5 — Validation F1 Score: 0.9524
-2025-08-04 13:01:09,527 [INFO] 📊 Epoch 6 — Validation F1 Score: 0.9474
-2025-08-04 13:01:09,669 [INFO] 📊 Epoch 7 — Validation F1 Score: 0.9756
-2025-08-04 13:01:09,813 [INFO] 📊 Epoch 8 — Validation F1 Score: 0.9756
-2025-08-04 13:01:09,950 [INFO] 📊 Epoch 9 — Validation F1 Score: 0.9744
-2025-08-04 13:01:10,088 [INFO] 📊 Epoch 10 — Validation F1 Score: 1.0000
-2025-08-04 13:01:10,225 [INFO] 📊 Epoch 11 — Validation F1 Score: 0.9756
-2025-08-04 13:01:10,367 [INFO] 📊 Epoch 12 — Validation F1 Score: 0.9756
-2025-08-04 13:01:10,550 [INFO] 📊 Epoch 13 — Validation F1 Score: 0.9756
-2025-08-04 13:01:10,690 [INFO] 📊 Epoch 14 — Validation F1 Score: 0.9756
-2025-08-04 13:01:10,845 [INFO] 📊 Epoch 15 — Validation F1 Score: 1.0000
-2025-08-04 13:01:10,996 [INFO] 📊 Epoch 16 — Validation F1 Score: 0.9756
-2025-08-04 13:01:11,134 [INFO] 📊 Epoch 17 — Validation F1 Score: 1.0000
-2025-08-04 13:01:11,289 [INFO] 📊 Epoch 18 — Validation F1 Score: 0.9744
-2025-08-04 13:01:11,441 [INFO] 📊 Epoch 19 — Validation F1 Score: 0.9524
-2025-08-04 13:01:11,581 [INFO] 📊 Epoch 20 — Validation F1 Score: 0.9744
-2025-08-04 13:01:11,719 [INFO] 📊 Epoch 21 — Validation F1 Score: 0.9756
-2025-08-04 13:01:11,861 [INFO] 📊 Epoch 22 — Validation F1 Score: 0.9744
-2025-08-04 13:01:12,019 [INFO] 📊 Epoch 23 — Validation F1 Score: 0.9744
-2025-08-04 13:01:12,223 [INFO] 📊 Epoch 24 — Validation F1 Score: 0.9500
-2025-08-04 13:01:12,382 [INFO] 📊 Epoch 25 — Validation F1 Score: 0.9756
-2025-08-04 13:01:12,533 [INFO] 📊 Epoch 26 — Validation F1 Score: 0.9744
-2025-08-04 13:01:12,683 [INFO] 📊 Epoch 27 — Validation F1 Score: 0.9744
-2025-08-04 13:01:12,823 [INFO] 📊 Epoch 28 — Validation F1 Score: 0.9500
-2025-08-04 13:01:12,963 [INFO] 📊 Epoch 29 — Validation F1 Score: 0.9500
-2025-08-04 13:01:13,221 [INFO] 📊 Epoch 30 — Validation F1 Score: 0.9744
-2025-08-04 13:01:13,224 [INFO] ✅ Model training completed.
-2025-08-04 13:01:13,225 [INFO] 
+2025-08-04 13:53:17,178 [INFO] 📊 Epoch 1 — Validation F1 Score: 0.9744
+2025-08-04 13:53:17,316 [INFO] 📊 Epoch 2 — Validation F1 Score: 0.9756
+2025-08-04 13:53:17,457 [INFO] 📊 Epoch 3 — Validation F1 Score: 0.9500
+2025-08-04 13:53:17,646 [INFO] 📊 Epoch 4 — Validation F1 Score: 0.9524
+2025-08-04 13:53:17,784 [INFO] 📊 Epoch 5 — Validation F1 Score: 0.9744
+2025-08-04 13:53:17,925 [INFO] 📊 Epoch 6 — Validation F1 Score: 0.9756
+2025-08-04 13:53:18,067 [INFO] 📊 Epoch 7 — Validation F1 Score: 0.9302
+2025-08-04 13:53:18,207 [INFO] 📊 Epoch 8 — Validation F1 Score: 0.9744
+2025-08-04 13:53:18,345 [INFO] 📊 Epoch 9 — Validation F1 Score: 0.9756
+2025-08-04 13:53:18,539 [INFO] 📊 Epoch 10 — Validation F1 Score: 1.0000
+2025-08-04 13:53:18,678 [INFO] 📊 Epoch 11 — Validation F1 Score: 0.9500
+2025-08-04 13:53:18,817 [INFO] 📊 Epoch 12 — Validation F1 Score: 0.9756
+2025-08-04 13:53:18,957 [INFO] 📊 Epoch 13 — Validation F1 Score: 1.0000
+2025-08-04 13:53:19,112 [INFO] 📊 Epoch 14 — Validation F1 Score: 0.9744
+2025-08-04 13:53:19,306 [INFO] 📊 Epoch 15 — Validation F1 Score: 0.9756
+2025-08-04 13:53:19,447 [INFO] 📊 Epoch 16 — Validation F1 Score: 0.9744
+2025-08-04 13:53:19,591 [INFO] 📊 Epoch 17 — Validation F1 Score: 1.0000
+2025-08-04 13:53:19,733 [INFO] 📊 Epoch 18 — Validation F1 Score: 0.9744
+2025-08-04 13:53:19,871 [INFO] 📊 Epoch 19 — Validation F1 Score: 1.0000
+2025-08-04 13:53:20,015 [INFO] 📊 Epoch 20 — Validation F1 Score: 0.9756
+2025-08-04 13:53:20,215 [INFO] 📊 Epoch 21 — Validation F1 Score: 0.9744
+2025-08-04 13:53:20,355 [INFO] 📊 Epoch 22 — Validation F1 Score: 0.9744
+2025-08-04 13:53:20,493 [INFO] 📊 Epoch 23 — Validation F1 Score: 0.9744
+2025-08-04 13:53:20,633 [INFO] 📊 Epoch 24 — Validation F1 Score: 0.9500
+2025-08-04 13:53:20,784 [INFO] 📊 Epoch 25 — Validation F1 Score: 0.9744
+2025-08-04 13:53:20,973 [INFO] 📊 Epoch 26 — Validation F1 Score: 1.0000
+2025-08-04 13:53:21,116 [INFO] 📊 Epoch 27 — Validation F1 Score: 0.9744
+2025-08-04 13:53:21,256 [INFO] 📊 Epoch 28 — Validation F1 Score: 0.9756
+2025-08-04 13:53:21,393 [INFO] 📊 Epoch 29 — Validation F1 Score: 0.9744
+2025-08-04 13:53:21,583 [INFO] 📊 Epoch 30 — Validation F1 Score: 0.9744
+2025-08-04 13:53:21,586 [INFO] ✅ Model training completed.
+2025-08-04 13:53:21,587 [INFO] 
 📈 Plotting F1 score over epochs...
-2025-08-04 13:01:13,421 [INFO] ✅ F1 score plot saved at: ../../resources/plot/global/test-data/v1.0.0/IID/f1_epoch.png
-2025-08-04 13:01:13,533 [INFO] ✅ F1 score plotting complete.
+2025-08-04 13:53:21,730 [INFO] ✅ F1 score plot saved at: ../../resources/plot/global/test-data/v1.0.0/IID/f1_epoch.png
+2025-08-04 13:53:21,824 [INFO] ✅ F1 score plotting complete.
 
-2025-08-04 13:01:13,543 [INFO] 🚀 Generating Precision-Recall Curve from test set predictions...
-2025-08-04 13:01:13,545 [INFO] 
+2025-08-04 13:53:21,834 [INFO] 🚀 Generating Precision-Recall Curve from test set predictions...
+2025-08-04 13:53:21,835 [INFO] 
 📈 Precision-Recall Curve Evaluation Started...
-2025-08-04 13:01:13,547 [INFO]   • Average Precision: 0.8480
-2025-08-04 13:01:13,547 [INFO]   • Average Recall: 0.7495
-2025-08-04 13:01:13,548 [INFO]   • Saving Precision-Recall plot to: ../../resources/plot/global/test-data/v1.0.0/IID/precision_recall.png
-2025-08-04 13:01:13,646 [INFO] ✅ Precision-Recall plot saved successfully.
-2025-08-04 13:01:13,723 [INFO] ✅ Precision-Recall Evaluation Completed.
+2025-08-04 13:53:21,838 [INFO]   • Average Precision: 0.8480
+2025-08-04 13:53:21,839 [INFO]   • Average Recall: 0.7495
+2025-08-04 13:53:21,840 [INFO] 🔢 Precision-Recall Pairs (Top entries):
+2025-08-04 13:53:21,841 [INFO]     - (No threshold) | Precision: 0.5000, Recall: 1.0000
+2025-08-04 13:53:21,841 [INFO]     - Threshold: 0.2880 | Precision: 0.5025, Recall: 1.0000
+2025-08-04 13:53:21,842 [INFO]     - Threshold: 0.3015 | Precision: 0.5051, Recall: 1.0000
+2025-08-04 13:53:21,843 [INFO]     - Threshold: 0.3075 | Precision: 0.5076, Recall: 1.0000
+2025-08-04 13:53:21,843 [INFO]     - Threshold: 0.3085 | Precision: 0.5102, Recall: 1.0000
+2025-08-04 13:53:21,844 [INFO]     - Threshold: 0.3094 | Precision: 0.5128, Recall: 1.0000
+2025-08-04 13:53:21,844 [INFO]     - Threshold: 0.3096 | Precision: 0.5155, Recall: 1.0000
+2025-08-04 13:53:21,845 [INFO]     - Threshold: 0.3098 | Precision: 0.5181, Recall: 1.0000
+2025-08-04 13:53:21,845 [INFO]     - Threshold: 0.3136 | Precision: 0.5208, Recall: 1.0000
+2025-08-04 13:53:21,846 [INFO]     - Threshold: 0.3141 | Precision: 0.5236, Recall: 1.0000
+2025-08-04 13:53:21,846 [INFO]   • Saving Precision-Recall plot to: ../../resources/plot/global/test-data/v1.0.0/IID/precision_recall.png
+2025-08-04 13:53:21,981 [INFO] ✅ Precision-Recall plot saved successfully.
+2025-08-04 13:53:22,056 [INFO] ✅ Precision-Recall Evaluation Completed.
 
-2025-08-04 13:01:13,734 [INFO] 🔍 Starting Precision-Recall Curve Evaluation...
-2025-08-04 13:01:13,740 [INFO] 📊 Test set split into validation set for evaluation.
-2025-08-04 13:01:13,742 [INFO] 🤖 Predicting probabilities using the trained model...
-2025-08-04 13:01:13,803 [INFO] ✅ Prediction completed.
-2025-08-04 13:01:13,804 [INFO] 📈 Generating Precision-Recall Curve and F1 Isocurves...
-2025-08-04 13:01:14,035 [INFO] ✅ Precision-Recall Curve and F1 Isocurves displayed successfully.
-2025-08-04 13:01:14,037 [INFO] 🏁 Precision-Recall Curve Evaluation Completed.
+2025-08-04 13:53:22,067 [INFO] 🤖 Predicting probabilities using the trained model...
+2025-08-04 13:53:22,123 [INFO] ✅ Prediction completed.
+2025-08-04 13:53:22,124 [INFO] 📈 Generating Precision-Recall Curve and F1 Isocurves...
+2025-08-04 13:53:22,126 [INFO] 🔢 Top Precision-Recall-Threshold Pairs:
+2025-08-04 13:53:22,126 [INFO]   Threshold: 0.0073 | Precision: 0.5000 | Recall: 1.0000
+2025-08-04 13:53:22,127 [INFO]   Threshold: 0.0086 | Precision: 0.5128 | Recall: 1.0000
+2025-08-04 13:53:22,128 [INFO]   Threshold: 0.0086 | Precision: 0.5263 | Recall: 1.0000
+2025-08-04 13:53:22,129 [INFO]   Threshold: 0.0086 | Precision: 0.5405 | Recall: 1.0000
+2025-08-04 13:53:22,129 [INFO]   Threshold: 0.0096 | Precision: 0.5556 | Recall: 1.0000
+2025-08-04 13:53:22,130 [INFO]   Threshold: 0.0101 | Precision: 0.5714 | Recall: 1.0000
+2025-08-04 13:53:22,131 [INFO]   Threshold: 0.0148 | Precision: 0.5882 | Recall: 1.0000
+2025-08-04 13:53:22,131 [INFO]   Threshold: 0.0155 | Precision: 0.6061 | Recall: 1.0000
+2025-08-04 13:53:22,132 [INFO]   Threshold: 0.0165 | Precision: 0.6250 | Recall: 1.0000
+2025-08-04 13:53:22,133 [INFO]   Threshold: 0.0173 | Precision: 0.6452 | Recall: 1.0000
+2025-08-04 13:53:22,134 [INFO]   Threshold: 0.0183 | Precision: 0.6667 | Recall: 1.0000
+2025-08-04 13:53:22,134 [INFO]   Threshold: 0.0200 | Precision: 0.6897 | Recall: 1.0000
+2025-08-04 13:53:22,135 [INFO]   Threshold: 0.0279 | Precision: 0.7143 | Recall: 1.0000
+2025-08-04 13:53:22,136 [INFO]   Threshold: 0.0395 | Precision: 0.7407 | Recall: 1.0000
+2025-08-04 13:53:22,137 [INFO]   Threshold: 0.0465 | Precision: 0.7692 | Recall: 1.0000
+2025-08-04 13:53:22,138 [INFO]   Threshold: 0.0487 | Precision: 0.8000 | Recall: 1.0000
+2025-08-04 13:53:22,138 [INFO]   Threshold: 0.0548 | Precision: 0.8333 | Recall: 1.0000
+2025-08-04 13:53:22,139 [INFO]   Threshold: 0.1402 | Precision: 0.8696 | Recall: 1.0000
+2025-08-04 13:53:22,140 [INFO]   Threshold: 0.2011 | Precision: 0.9091 | Recall: 1.0000
+2025-08-04 13:53:22,140 [INFO]   Threshold: 0.2361 | Precision: 0.9524 | Recall: 1.0000
+2025-08-04 13:53:22,141 [INFO]   Threshold: 0.3826 | Precision: 1.0000 | Recall: 1.0000
+2025-08-04 13:53:22,142 [INFO]   Threshold: 0.8535 | Precision: 1.0000 | Recall: 0.9500
+2025-08-04 13:53:22,143 [INFO]   Threshold: 0.8803 | Precision: 1.0000 | Recall: 0.9000
+2025-08-04 13:53:22,144 [INFO]   Threshold: 0.9041 | Precision: 1.0000 | Recall: 0.8500
+2025-08-04 13:53:22,144 [INFO]   Threshold: 0.9135 | Precision: 1.0000 | Recall: 0.8000
+2025-08-04 13:53:22,145 [INFO]   Threshold: 0.9378 | Precision: 1.0000 | Recall: 0.7500
+2025-08-04 13:53:22,145 [INFO]   Threshold: 0.9382 | Precision: 1.0000 | Recall: 0.7000
+2025-08-04 13:53:22,146 [INFO]   Threshold: 0.9484 | Precision: 1.0000 | Recall: 0.6500
+2025-08-04 13:53:22,147 [INFO]   Threshold: 0.9792 | Precision: 1.0000 | Recall: 0.6000
+2025-08-04 13:53:22,148 [INFO]   Threshold: 0.9861 | Precision: 1.0000 | Recall: 0.5500
+2025-08-04 13:53:22,149 [INFO]   Threshold: 0.9879 | Precision: 1.0000 | Recall: 0.5000
+2025-08-04 13:53:22,149 [INFO]   Threshold: 0.9928 | Precision: 1.0000 | Recall: 0.4500
+2025-08-04 13:53:22,150 [INFO]   Threshold: 0.9940 | Precision: 1.0000 | Recall: 0.4000
+2025-08-04 13:53:22,150 [INFO]   Threshold: 0.9943 | Precision: 1.0000 | Recall: 0.3500
+2025-08-04 13:53:22,151 [INFO]   Threshold: 0.9962 | Precision: 1.0000 | Recall: 0.3000
+2025-08-04 13:53:22,151 [INFO]   Threshold: 0.9964 | Precision: 1.0000 | Recall: 0.2500
+2025-08-04 13:53:22,152 [INFO]   Threshold: 0.9967 | Precision: 1.0000 | Recall: 0.2000
+2025-08-04 13:53:22,153 [INFO]   Threshold: 0.9975 | Precision: 1.0000 | Recall: 0.1500
+2025-08-04 13:53:22,154 [INFO]   Threshold: 0.9979 | Precision: 1.0000 | Recall: 0.1000
+2025-08-04 13:53:22,155 [INFO]   Threshold: 0.9981 | Precision: 1.0000 | Recall: 0.0500
+2025-08-04 13:53:22,156 [INFO] ℹ️ Total Points: 40 (Note: precision and recall arrays are length 41)
+2025-08-04 13:53:22,368 [INFO] ✅ Precision-Recall Curve and F1 Isocurves displayed successfully.
+2025-08-04 13:53:22,369 [INFO] 🏁 Precision-Recall Curve Evaluation Completed.
 
