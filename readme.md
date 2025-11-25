@@ -760,7 +760,7 @@ TapIQ’s modularity allows these directions to be plugged in without overhaulin
 
 ---
 
-### 📬 Contact / Maintainer (optional)
+### 📬 Contact / Maintainer
 
 ```markdown
 ## 📬 Maintainer
@@ -802,8 +802,6 @@ THE SOFTWARE.
 ---
 
 ### ✅ Final Ending Line
-
-Wrap up with a short mission-aligned or forward-looking statement:
 
 ```markdown
 Let’s reimagine Non-Destructive Testing with intelligence, modularity, and privacy—one tap at a time. 🚀
